@@ -2,14 +2,14 @@ site_name: My kalyanjewellers material Documentation
 site_url: https://sitename.example
 theme :
     name : material
+    
     font:
       text: Merriweather Sans
       code: Red Hat Mono
     logo: assets/kalyan_logo.png
     favicon: assets/kalyan_logo.png
+
     features:
-      - features A : assets/test/test1.md
-      
       - navigation.tabs
       - navigation.sections
       - navigation.expand
@@ -19,8 +19,7 @@ theme :
       - search.share
       - search.suggest
       - navigation.top
-      
-      
+
     palette: 
     # Palette toggle for light mode
     - scheme: default
@@ -60,6 +59,4 @@ extra:
 copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
 plugins:
   - search
-  
-
 
