@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://sitename.example/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/ABOUT%20US/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/admonitions/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/diagram-examples/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/test/test1/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+    <url>
+         <loc>https://sitename.example/test/test2/</loc>
+         <lastmod>2025-03-21</lastmod>
+    </url>
+</urlset>
