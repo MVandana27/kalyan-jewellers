@@ -1,0 +1,65 @@
+site_name: My kalyanjewellers material Documentation
+site_url: https://sitename.example
+theme :
+    name : material
+    font:
+      text: Merriweather Sans
+      code: Red Hat Mono
+    logo: assets/kalyan_logo.png
+    favicon: assets/kalyan_logo.png
+    features:
+      - features A : assets/test/test1.md
+      
+      - navigation.tabs
+      - navigation.sections
+      - navigation.expand
+      - navigation.footer
+      - header.autohide
+      - search.highlight
+      - search.share
+      - search.suggest
+      - navigation.top
+      
+      
+    palette: 
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
+markdown_extensions:
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+
+  - admonition
+  - pymdownx.details
+ 
+
+ 
+extra:
+  social:
+    - icon: simple/instagram
+      link: https://www.instagram.com/kalyanjewellers_official/
+    - icon: simple/facebook
+      link: https://www.facebook.com/KalyanJewellersIndia
+    - icon: simple/youtube
+      link: https://www.youtube.com/user/kalyanjewellers
+copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
+plugins:
+  - search
+  
+
+
