@@ -1,5 +1,9 @@
 # Welcome to Kalyan Jewellers
 
+
+![Kalyan Jewellers](assets/kalyan_logo.png)
+
+
 For full details visit [www.kalyanjewellers.org](https://www.kalyanjewellers.net/)
 
 ## MUHURAT

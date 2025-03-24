@@ -5,7 +5,7 @@
 
     T.S. Kalyanaraman
 
-    ![T.S. Kalyanaraman](assets/TS-Kalyanaraman.jpg){ align=left }
+    ![T.S. Kalyanaraman](assets/TS-Kalyanaraman.jpg)
     Today, when I look around me, business is all about toplines, bottomlines and market capitalisation. But Kalyan entered into business in a pre-independent India to build a better India, as our forefathers believed ethical, fair business will make India self-sufficient and strong.Personally, I believe Kalyan Jewellers' major achievement is the trust we have earned from millions of people across the length and breadth of a huge subcontinent like India, and abroad in the GCC.
 
     We have always believed in fair and transparent business. We have believed that the customer should be understood so well that we know his needs much before he understands them himself. We have believed that an enlightened customer is the best customer. These are the simple principles that have helped us reach where we are today.
