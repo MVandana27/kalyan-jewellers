@@ -15,19 +15,19 @@
 
 
     Rajesh Kalyanaraman - Executive Director
-    ![Rajesh kalyanaraman](assets/Kalyan-Jewellers-interview.jpg){ align=left }
+    ![Rajesh kalyanaraman](assets/Kalyan-Jewellers-interview.jpg)
 
 
 
     I feel our biggest differentiator is not only the ability to understand local, think local and act local, but at the same time bring in our vast experience and sourcing strength out of operating in multiple markets. Jewellery is a complicated product, because tastes vary even within the same state. What helps us here is the huge variety of products we stock from artisans across the country and even the Arab countries. We carefully and painstakingly select the designs of our products and customise them according to the demands of the consumer demography of each market we step into as India is such a vast country with diverse tastes
 === "Vision"
 
-     ![kalyan jewellers](assets/kalyan_logo.png){ align=left }
+     ![kalyan jewellers](assets/kalyan_logo.png)
      
     To understand and delight the world, translating everyone’s dream and personality into fine Indian jewellery, and spread the happiness from it to all.
 === "Mission"
 
-    ![kalyan jewellers](assets/kalyan_logo.png){ align=left } 
+    ![kalyan jewellers](assets/kalyan_logo.png)
 
     To give every customer much more than what he/she asks for in terms of quality, selection, value for money and customer service, by understanding local tastes and preferences and innovating constantly to eventually provide an unmatched experience in Indian jewellery shopping.
 === "OUR NETWORK"
