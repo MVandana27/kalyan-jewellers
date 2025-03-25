@@ -2,7 +2,7 @@ site_name: My kalyanjewellers material Documentation
 site_url: https://sitename.example
 theme :
     name : material
-    
+
     font:
       text: Merriweather Sans
       code: Red Hat Mono
@@ -11,10 +11,11 @@ theme :
 
     features:
       - navigation.tabs
+      - navigation.tabs.sticky
       - navigation.sections
       - navigation.expand
+      - navigation.indexes
       - navigation.footer
-      - header.autohide
       - search.highlight
       - search.share
       - search.suggest
@@ -74,7 +75,21 @@ copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
 
 
 
+
 plugins:
   - search
+
    
+nav:
+    - Home: index.md
+    - About Us: ABOUT US.md
+    - Services:
+        - Admonitions: services/admonitions.md
+        - App: services/app.md
+        - Web: services/web.md
+    - Team: team.md
+    - Diagrams: diagram-examples.md
+    - Contact: contact.md
+    
+
 
