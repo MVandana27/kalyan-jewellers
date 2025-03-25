@@ -15,16 +15,14 @@ Weddings are a deep-rooted element of our society, and Indian brides are known a
 Searching for the latest prices of gold? Kalyan brings you the daily updated gold rates on a per gram basis. Find out the gold rate today in the country and state of your choice.
 
 
-=== "Task list"
 
-# Task List
-
-## Development Tasks
+## Task list
+### Development Tasks
 - [ ] Implement user authentication
 - [x] Fix login bug
 - [ ] Write API documentation
 
-## Documentation Tasks
+### Documentation Tasks
 - [x] Set up MkDocs Material
 - [ ] Add dark mode support
 - [ ] Review content for typos

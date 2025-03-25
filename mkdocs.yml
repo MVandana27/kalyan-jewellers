@@ -20,6 +20,7 @@ theme :
       - search.share
       - search.suggest
       - navigation.top
+      - toc.integrate
 
     palette:
     - media: "(prefers-color-scheme)"
@@ -78,7 +79,7 @@ copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
 
 plugins:
   - search
-
+      
    
 nav:
     - Home: index.md
