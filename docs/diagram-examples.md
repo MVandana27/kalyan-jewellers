@@ -1,10 +1,11 @@
-```mermaid
-flowchart TD
-    A[Start] --> B{Is it morning?}
-    B -->|Yes| C[Good morning!]
-    B -->|No| D[Good evening!]
-    C --> E[Go to work]
-    D --> E[Go to work]
-    E --> F[Finish work]
-    F --> G[End]
-```
+| Metal      | Type     | Price (per gm) |
+|------------|---------|----------------|
+| Gold       | 18K     | ₹6709          |
+| Gold       | 22K     | ₹8195          |
+| Gold       | 24K     | ₹8938          |
+| Platinum   | -       | ₹3362          |
+| Silver     | North   | ₹103           |
+| Silver     | Tamil Nadu | ₹111       |
+| Silver     | Karnataka | ₹104        |
+| Silver     | Kerala   | ₹109         |
+| Silver     | AP-TS   | ₹104          |
