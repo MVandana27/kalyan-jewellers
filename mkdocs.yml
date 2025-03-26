@@ -41,6 +41,7 @@ theme :
       toggle:
         icon: material/toggle-switch-off
         name: Switch to system preference
+
 markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
@@ -82,6 +83,7 @@ plugins:
   - blog
   
       
+      
      
 nav:
     - Home: index.md
@@ -96,6 +98,6 @@ nav:
     - Blog:
       - Overview: blog/index.md
       - "First Post": blog/2025-03-25-first-post.md
-    
+      - "Second post": blog/2025-03-26-second-post.md
 
 
