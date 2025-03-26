@@ -2,7 +2,7 @@ site_name: Kalyan-Jewellers
 site_url: https://sitename.example
 theme :
     name : material
-    favicon: assets/download.png
+    favicon: assets/KALYANKj.png
     logo: assets/kalyan_logo.png
     custom_dir: docs/overrides
     font:
