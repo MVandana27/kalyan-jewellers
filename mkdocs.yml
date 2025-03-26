@@ -79,8 +79,10 @@ copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
 
 plugins:
   - search
+  - blog
+  
       
-   
+     
 nav:
     - Home: index.md
     - About Us: ABOUT US.md
@@ -91,6 +93,9 @@ nav:
     - Team: team.md
     - Diagrams: diagram-examples.md
     - Contact: contact.md
+    - Blog:
+      - Overview: blog/index.md
+      - "First Post": blog/2025-03-25-first-post.md
     
 
 
