@@ -24,7 +24,6 @@ Searching for the latest prices of gold? Kalyan brings you the daily updated gol
 - [ ] Review content for typos
 
 
-[Button 1](https://www.example.com/link1)
-[Button 2](https://www.example.com/link2)
+
 
 For full details visit [www.kalyanjewellers.org](https://www.kalyanjewellers.net/)

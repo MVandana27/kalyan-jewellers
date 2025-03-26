@@ -17,7 +17,7 @@ theme :
       - navigation.instant
       - navigation.indexes
       - navigation.expand
-      - navigation.footer
+      - navigation.tracking
       - search.highlight
       - search.share
       - search.suggest
@@ -53,8 +53,8 @@ markdown_extensions:
           format: !!python/name:pymdownx.superfences.fence_code_format
 
   - pymdownx.tasklist:
-      custom_checkbox: true
-  - admonition
+      clickable_checkbox:  true
+  - markdown.extensions.admonition
   - pymdownx.details
  
 
@@ -71,14 +71,15 @@ plugins:
   - search
   - blog
   
+  
 
 nav:
     - Kalyan Jewellers: index.md
     - About Us: ABOUT US.md
     - Services:
-        - Admonitions: services/admonitions.md
         - App: services/app.md
         - Web: services/web.md
+        - Admonitions: services/admonitions.md
     - Team: team.md
     - Diagrams: diagram-examples.md
     - Contact: contact.md
@@ -89,6 +90,7 @@ nav:
     
 
 extra_css:
-  - assets/extra.css
+  - assets/mycustom.css
+
 
 
