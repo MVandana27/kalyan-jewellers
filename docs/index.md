@@ -1,11 +1,7 @@
-# Welcome to Kalyan Jewellers
-
-
-![Kalyan Jewellers](assets/kalyan_logo.png)
-
-
-For full details visit [www.kalyanjewellers.org](https://www.kalyanjewellers.net/)
-
+<div style="text-align: center;">
+    <img src="assets/kj.png" alt="Kalyan Jewellers" style="width: 150px;">
+</div>
+Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
 ## MUHURAT
 
 MUHURAT
@@ -26,3 +22,9 @@ Searching for the latest prices of gold? Kalyan brings you the daily updated gol
 - [x] Set up MkDocs Material
 - [ ] Add dark mode support
 - [ ] Review content for typos
+
+
+[Button 1](https://www.example.com/link1)
+[Button 2](https://www.example.com/link2)
+
+For full details visit [www.kalyanjewellers.org](https://www.kalyanjewellers.net/)

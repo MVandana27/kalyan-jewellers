@@ -1,20 +1,22 @@
-site_name: My kalyanjewellers material Documentation
+site_name: Kalyan-Jewellers
 site_url: https://sitename.example
 theme :
     name : material
-
+    favicon: assets/download.png
+    logo: assets/kalyan_logo.png
+    custom_dir: docs/overrides
     font:
       text: Merriweather Sans
       code: Red Hat Mono
-    logo: assets/kalyan_logo.png
-    favicon: assets/kalyan_logo.png
+  
 
     features:
       - navigation.tabs
       - navigation.tabs.sticky
       - navigation.sections
-      - navigation.expand
+      - navigation.instant
       - navigation.indexes
+      - navigation.expand
       - navigation.footer
       - search.highlight
       - search.share
@@ -22,25 +24,20 @@ theme :
       - navigation.top
       - toc.integrate
 
+    
     palette:
-    - media: "(prefers-color-scheme)"
-      toggle:
-        icon: material/link
-        name: Switch to light mode
-    - media: "(prefers-color-scheme: light)"
-      scheme: default
+    - scheme: default
       primary: blue
-      accent: red
+      accent: light blue
       toggle:
-        icon: material/toggle-switch
+        icon: material/weather-night
         name: Switch to dark mode
-    - media: "(prefers-color-scheme: dark)"
-      scheme: slate
-      primary: pink
-      accent: blue
+    - scheme: slate
+      primary: blue
+      accent: light blue
       toggle:
-        icon: material/toggle-switch-off
-        name: Switch to system preference
+        icon: material/weather-sunny
+        name: Switch to light mode
 
 markdown_extensions:
   - pymdownx.tabbed:
@@ -61,19 +58,11 @@ markdown_extensions:
   - pymdownx.details
  
 
- 
+
+
 extra:
-  social:
-    - icon: simple/instagram
-      link: https://www.instagram.com/kalyanjewellers_official/
-    - icon: simple/facebook
-      link: https://www.facebook.com/KalyanJewellersIndia
-    - icon: simple/youtube
-      link: https://www.youtube.com/user/kalyanjewellers
-
+  
   generator: false
-
-copyright: copyright &copy; 2025 Kalyan Jewellers. All rights reserved.
 
 
 
@@ -82,11 +71,9 @@ plugins:
   - search
   - blog
   
-      
-      
-     
+
 nav:
-    - Home: index.md
+    - Kalyan Jewellers: index.md
     - About Us: ABOUT US.md
     - Services:
         - Admonitions: services/admonitions.md
@@ -99,5 +86,9 @@ nav:
       - Overview: blog/index.md
       - "First Post": blog/2025-03-25-first-post.md
       - "Second post": blog/2025-03-26-second-post.md
+    
+
+extra_css:
+  - assets/extra.css
 
 

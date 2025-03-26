@@ -1,0 +1,45 @@
+.center-logo {
+    display: block;
+    margin: 0 auto;
+}
+.md-content h1:first-of-type {
+    display: none;
+}
+.md-header__topic {
+    display: none !important;
+}
+.md-header__button.md-logo {
+    display: none !important;
+}
+
+/* Make the header a single row */
+.md-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: linear-gradient(to right, rgba(30, 144, 255, 0.8), rgba(30, 144, 255, 0.3)) !important;
+    padding: 10px 20px;
+    height: 60px; /* Adjust height */
+}
+
+/* Remove the separate bottom navigation bar */
+.md-tabs {
+    align-items: center;
+    background: transparent !important; /* Make it blend with the header */
+    box-shadow: none !important;
+}
+
+/* Ensure the logo, navigation, and search bar are in one row */
+.md-header__button, .md-tabs, .md-search {
+    align-items: center;
+}
+
+/* Push the search bar to the right */
+.md-search {
+    margin-left: auto; /* Ensures search bar stays at the right */
+}
+
+
+
+
+
