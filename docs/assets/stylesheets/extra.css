@@ -13,21 +13,6 @@
 }
 
 
-.md-header__nav {
-    display: none !important;
-  }
-
-
-/* Change inactive menu item color */
-.md-header__button, .md-header__button.md-logo img {
-    filter: none !important;
-    opacity: 1 !important;
-}
-
-/* Ensure logo and text remain fully visible */
-.md-header__button .md-logo, .md-header__button span {
-    color: #2C3E50 !important;  /* Change this color to match your theme */
-}
 
 
 

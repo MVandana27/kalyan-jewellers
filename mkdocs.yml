@@ -1,7 +1,5 @@
 site_name: Kalyan Jewellers
 site_url: https://kalyanjewellers.example.com
-site_description: Premium Jewelry and Diamonds since 1985
-site_author: Kalyan Jewellers
 
 theme:
   name: material
@@ -52,7 +50,10 @@ extra_javascript:
   - javascripts/mermaid-init.js  
   - javascripts/dropdown.js
   - https://unpkg.com/force-image-reload@1.0.0
-  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
+  - javascripts/custom-nav.js
+
+
 
 
 markdown_extensions:
@@ -90,20 +91,18 @@ plugins:
   - glightbox
 
 nav:
-  - <i class="fas fa-gem"></i> Kalyan Jewellers: index.md
-    
-  - <i class="fas fa-landmark"></i> About Us:
-    - <i class="fas fa-history"></i> Our Heritage: about/heritage.md
-    - <i class="fas fa-hammer"></i> Craftsmanship: about/craftsmanship.md
-  - <i class="fas fa-chess-queen"></i> Collections:
-    - <i class="fas fa-ring"></i> Gold Jewelry: collections/gold.md
-    - <i class="fas fa-gem"></i> Diamond Collections: collections/diamonds.md
-    - <i class="fas fa-heart"></i> Bridal Jewelry: collections/bridal.md
-  - <i class="fas fa-concierge-bell"></i> Services:
-    - <i class="fas fa-pencil-ruler"></i> Custom Design: services/custom.md
-    - <i class="fas fa-tools"></i> Jewelry Repair: services/repair.md
-  - <i class="fas fa-newspaper"></i> Blog:
-    - <i class="fas fa-chart-line"></i> Latest Trends: blog/index.md
-  - <i class="fas fa-envelope"></i> Contact Us: contact.md
-
+  - Kalyan Jewellers: index.md
+  - About Us:
+      - Our Heritage: about/heritage.md
+      - Craftsmanship: about/craftsmanship.md
+  - Collections:
+      - Gold Jewelry: collections/gold.md
+      - Diamond Collections: collections/diamonds.md
+      - Bridal Jewelry: collections/bridal.md
+  - Services:
+      - Custom Design: services/custom.md
+      - Jewelry Repair: services/repair.md
+  - Blog:
+      - Latest Trends: blog/index.md
+  - Contact Us: contact.md
 
