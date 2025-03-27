@@ -1,69 +1,11 @@
-/* Navbar */
-.md-header__title {
-    font-family: 'Playfair Display', serif;
-  }
-  
-  /* Hero Section */
-  .hero {
-    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), 
-                url('../images/hero-bg.jpg');
-    background-size: cover;
-    padding: 8rem 1rem;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Button Styles */
-  .md-button {
-    border-radius: 50px;
-    padding: 0.8rem 2rem;
-    margin: 0.5rem;
-  }
-  .hero {
-    text-align: center;
-    padding: 4rem 1rem;
-  }
-  
-  .md-button {
-    margin: 0.5rem;
-  }
 
-  /* Mermaid diagram styling */
-.mermaid {
-    background: white;
-    padding: 1rem;
-    border-radius: 8px;
-    margin: 1.5rem 0;
-    overflow: auto;
-  }
-  
-  /* Dark mode support */
-  [data-md-color-scheme="slate"] .mermaid {
-    background: var(--md-default-bg-color);
-  }
 
-  .product-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-    margin: 2rem 0;
-  }
-  
-  .product-card {
-    border: 1px solid #e1e1e1;
-    border-radius: 8px;
-    overflow: hidden;
-    transition: transform 0.3s ease;
-  }
-  
-  .product-card:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
-  }
-  
-  .product-card img {
-    width: 100%;
-    height: 250px;
-    object-fit: cover;
-    border-bottom: 1px solid #e1e1e1;
-  }
+/* Remove all grey backgrounds from navigation */
+.md-header {
+  background-color: transparent !important;
+}
+
+.md-tabs {
+  background-color: transparent !important;
+}
+

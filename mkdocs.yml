@@ -15,6 +15,9 @@ theme:
     - navigation.top
     - toc.integrate
     - search.highlight
+  icon:
+    repo: fontawesome/brands/github
+  
 
   font:
     text: Merriweather Sans
@@ -42,10 +45,14 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
   - stylesheets/extra.css
+
 extra_javascript:
   - javascripts/custom.js
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
-  - javascripts/mermaid-init.js  # Local initialization (create this file)
+  - javascripts/mermaid-init.js  
+  - javascripts/dropdown.js
+  - https://unpkg.com/force-image-reload@1.0.0
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js
 
 
 markdown_extensions:
@@ -63,35 +70,40 @@ markdown_extensions:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
 
 plugins:
   - search
   - blog:
-      blog_dir: blog
-      pagination_dir: page
+      blog_dir: 'blog'
   - git-revision-date-localized:
       enable_creation_date: true
       fallback_to_build_date: true
       type: date
       timezone: Asia/Kolkata  # Change to your timezone
       locale: en
-  - macros
+  - macros:
+      module_name: docs/main
   - glightbox
 
 nav:
-  - Home: index.md
-  - About Us:
-    - Our Heritage: about/heritage.md
-    - Craftsmanship: about/craftsmanship.md
-  - Collections:
-    - Gold Jewelry: collections/gold.md
-    - Diamond Collections: collections/diamonds.md
-    - Bridal Jewelry: collections/bridal.md
-  - Services:
-    - Custom Design: services/custom.md
-    - Jewelry Repair: services/repair.md
-  - Blog:
-    - Latest Trends: blog/trends.md
-  - Contact Us: contact.md
+  - <i class="fas fa-gem"></i> Kalyan Jewellers: index.md
+    
+  - <i class="fas fa-landmark"></i> About Us:
+    - <i class="fas fa-history"></i> Our Heritage: about/heritage.md
+    - <i class="fas fa-hammer"></i> Craftsmanship: about/craftsmanship.md
+  - <i class="fas fa-chess-queen"></i> Collections:
+    - <i class="fas fa-ring"></i> Gold Jewelry: collections/gold.md
+    - <i class="fas fa-gem"></i> Diamond Collections: collections/diamonds.md
+    - <i class="fas fa-heart"></i> Bridal Jewelry: collections/bridal.md
+  - <i class="fas fa-concierge-bell"></i> Services:
+    - <i class="fas fa-pencil-ruler"></i> Custom Design: services/custom.md
+    - <i class="fas fa-tools"></i> Jewelry Repair: services/repair.md
+  - <i class="fas fa-newspaper"></i> Blog:
+    - <i class="fas fa-chart-line"></i> Latest Trends: blog/index.md
+  - <i class="fas fa-envelope"></i> Contact Us: contact.md
 
 

@@ -120,3 +120,4 @@ gantt
     Temple Collections   :2025-08-01, 2025-11-30
     section Year-Round
     Convertible Jewelry  :crit, 2025-01-01, 2025-12-31
+```

@@ -7,38 +7,24 @@
   </div>
 </div>
 
-## Our Repair Services
+# **Jewellery Repair – Restore the Brilliance**  
 
-<div class="services-grid">
+At **Kalyan Jewellers**, we understand the sentimental value of your jewellery. Our **expert repair services** ensure that your treasured pieces regain their original beauty and strength, whether it's a family heirloom or a daily wear favourite.  
 
-<div class="service-card" markdown>
-![Ring Repair](/assets/images/repair/ring-repair.jpg){ loading=lazy }
-### Ring Services
-- **Resizing** (up/down 3 sizes)
-- **Shank Replacement**
-- **Prong Retipping**
-- **Stone Tightening**
-</div>
+## **Our Repair Services**  
+🔧 **Ring Resizing** – Perfect fit adjustments for comfort and elegance.  
+💎 **Stone Replacement** – Restore missing or damaged gemstones and diamonds.  
+🔗 **Chain & Bracelet Repair** – Fix broken clasps, links, and fasteners.  
+✨ **Polishing & Cleaning** – Bring back the original shine and sparkle.  
+🛠 **Antique Jewellery Restoration** – Preserve and restore vintage pieces with expert care.  
 
-<div class="service-card" markdown>
-![Chain Repair](/assets/images/repair/chain-repair.jpg){ loading=lazy }
-### Chain & Necklace
-- **Link Repair**
-- **Clasp Replacement**
-- **Knotting Restringing**
-- **Length Adjustment**
-</div>
+## **Why Choose Kalyan Jewellers?**  
+✔ **Skilled Craftsmanship & Precision Repairs**  
+✔ **High-Quality Materials & Expert Techniques**  
+✔ **Quick & Reliable Service with Transparency**  
+✔ **Trusted by Millions for Jewellery Care**  
 
-<div class="service-card" markdown>
-![Antique Restoration](/assets/images/repair/antique-repair.jpg){ loading=lazy }
-### Restoration
-- **Heirloom Repair**
-- **Engraving Revival**
-- **Metal Refinishing**
-- **Stone Replacement**
-</div>
 
-</div>
 
 ## The Kalyan Repair Process
 
