@@ -1,96 +1,97 @@
-site_name: Kalyan-Jewellers
-site_url: https://sitename.example
-theme :
-    name : material
-    favicon: assets/KALYANKj.png
-    logo: assets/kalyan_logo.png
-    custom_dir: docs/overrides
-    font:
-      text: Merriweather Sans
-      code: Red Hat Mono
-  
+site_name: Kalyan Jewellers
+site_url: https://kalyanjewellers.example.com
+site_description: Premium Jewelry and Diamonds since 1985
+site_author: Kalyan Jewellers
 
-    features:
-      - navigation.tabs
-      - navigation.tabs.sticky
-      - navigation.sections
-      - navigation.instant
-      - navigation.indexes
-      - navigation.expand
-      - navigation.tracking
-      - search.highlight
-      - search.share
-      - search.suggest
-      - navigation.top
-      - toc.integrate
+theme:
+  name: material
+  custom_dir: docs/overrides
 
-    
-    palette:
-    - scheme: default
-      primary: blue
-      accent: light blue
-      toggle:
-        icon: material/weather-night
-        name: Switch to dark mode
-    - scheme: slate
-      primary: blue
-      accent: light blue
+
+  features:
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.top
+    - toc.integrate
+    - search.highlight
+
+  font:
+    text: Merriweather Sans
+    code: Red Hat Mono
+
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: indigo
+      accent: indigo
       toggle:
         icon: material/weather-sunny
+        name: Switch to dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/weather-night
         name: Switch to light mode
+  logo: assets/images/kalyan_logo.png
+  favicon: assets/images/KALYANkj.png
+
+
+extra_css:
+  - assets/stylesheets/extra.css
+  - stylesheets/extra.css
+extra_javascript:
+  - javascripts/custom.js
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+  - javascripts/mermaid-init.js  # Local initialization (create this file)
+
 
 markdown_extensions:
+  - attr_list
+  - pymdownx.emoji
+  - pymdownx.highlight
+  - md_in_html
+  - pymdownx.superfences
   - pymdownx.tabbed:
       alternate_style: true
-  - pymdownx.emoji:
-      emoji_index: !!python/name:material.extensions.emoji.twemoji
-      emoji_generator: !!python/name:material.extensions.emoji.to_svg
-
+  - pymdownx.tasklist:
+      custom_checkbox: true
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
           class: mermaid
           format: !!python/name:pymdownx.superfences.fence_code_format
 
-  - pymdownx.tasklist:
-      clickable_checkbox:  true
-  - markdown.extensions.admonition
-  - pymdownx.details
- 
-
-
-
-extra:
-  
-  generator: false
-
-
-
-
 plugins:
   - search
-  - blog
-  
-  
+  - blog:
+      blog_dir: blog
+      pagination_dir: page
+  - git-revision-date-localized:
+      enable_creation_date: true
+      fallback_to_build_date: true
+      type: date
+      timezone: Asia/Kolkata  # Change to your timezone
+      locale: en
+  - macros
+  - glightbox
 
 nav:
-    - Kalyan Jewellers: index.md
-    - About Us: ABOUT US.md
-    - Services:
-        - App: services/app.md
-        - Web: services/web.md
-        - Admonitions: services/admonitions.md
-    - Team: team.md
-    - Diagrams: diagram-examples.md
-    - Contact: contact.md
-    - Blog:
-      - Overview: blog/index.md
-      - "First Post": blog/2025-03-25-first-post.md
-      - "Second post": blog/2025-03-26-second-post.md
-    
+  - Home: index.md
+  - About Us:
+    - Our Heritage: about/heritage.md
+    - Craftsmanship: about/craftsmanship.md
+  - Collections:
+    - Gold Jewelry: collections/gold.md
+    - Diamond Collections: collections/diamonds.md
+    - Bridal Jewelry: collections/bridal.md
+  - Services:
+    - Custom Design: services/custom.md
+    - Jewelry Repair: services/repair.md
+  - Blog:
+    - Latest Trends: blog/trends.md
+  - Contact Us: contact.md
 
-extra_css:
-  - assets/extra.css
-  
-  
 

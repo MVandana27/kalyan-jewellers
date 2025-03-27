@@ -1,29 +1,58 @@
 <div style="text-align: center;">
-    <img src="assets/kj.png" alt="Kalyan Jewellers" style="width: 150px;">
+    <img src="assets/images/KJ.png" alt="Kalyan Jewellers" style="width: 150px;">
 </div>
 Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
-## MUHURAT
+<div class="hero" markdown>
 
-MUHURAT
-Weddings are a deep-rooted element of our society, and Indian brides are known as symbols of beauty, pride and elegance. India is a vast country with different customs and traditions practiced even within the same state. Yet, there is something that unites us all - the "Muhurat" or the auspicious time for celebration. At Kalyan Jewellers, we embrace the importance of every "Muhurat". Our wedding collections are for every bride, from every part of India.
+# Timeless Elegance, Crafted with Passion
 
-## Gold Rate Today
-Searching for the latest prices of gold? Kalyan brings you the daily updated gold rates on a per gram basis. Find out the gold rate today in the country and state of your choice.
+Discover our exquisite collection of handcrafted jewelry that celebrates your special moments
 
+[View Collections](/collections/gold){: .md-button .md-button--primary }
+[Book Consultation](/contact){: .md-button }
 
+</div>
 
-## Task list
-### Development Tasks
-- [ ] Implement user authentication
-- [x] Fix login bug
-- [ ] Write API documentation
+## Featured Collections
 
-### Documentation Tasks
-- [x] Set up MkDocs Material
-- [ ] Add dark mode support
-- [ ] Review content for typos
+<div class="product-grid">
 
+<div class="product-card" markdown>
 
+![Gold Necklaces](/assets/images/products/gold-necklace.jpg){ loading=lazy }
 
+### Gold Collection
+
+Explore our premium 22K and 18K gold jewelry with traditional and contemporary designs.
+
+[View Collection](/collections/gold){: .md-button .md-button--primary .md-button--small }
+
+</div>
+
+<div class="product-card" markdown>
+
+![Diamond Rings](/assets/images/products/diamond-ring.jpg){ loading=lazy }
+
+### Diamond Collection
+
+Exquisite diamonds set in elegant designs for every occasion.
+
+[View Collection](/collections/diamonds){: .md-button .md-button--primary .md-button--small }
+
+</div>
+
+<div class="product-card" markdown>
+
+![Bridal Set](/assets/images/products/bridal-set.jpg){ loading=lazy }
+
+### Bridal Collection
+
+Complete your wedding look with our stunning bridal jewelry sets.
+
+[View Collection](/collections/bridal){: .md-button .md-button--primary .md-button--small }
+
+</div>
+
+</div>
 
 For full details visit [www.kalyanjewellers.org](https://www.kalyanjewellers.net/)
