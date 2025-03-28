@@ -127,7 +127,7 @@
 }
 
 .navbar a {
-    color: rgb(211, 214, 68); /* Adjust text color as needed */
+    color: rgb(11, 10, 10); /* Adjust text color as needed */
     font-weight: bold;
     text-decoration: none;
     padding: 10px 15px;
@@ -136,14 +136,15 @@
 /* Dropdown Menu - Ensure it Stays Visible */
 .navbar a:hover,
 .navbar a:focus {
-    color: #cd762e; /* Highlight on hover */
+    color: #ffcc00; /* Highlight on hover */
 }
 
 /* Dropdown Background Transparent */
 .navbar .dropdown-menu {
-    background: rgba(219, 173, 57, 0.7); /* Semi-transparent dropdown (optional) */
+    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dropdown (optional) */
     border: none;
 }
+
 
 
 
