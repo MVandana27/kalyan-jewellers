@@ -7,14 +7,13 @@ theme:
 
 
   features:
-    - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
     - toc.integrate
     - search.highlight
-  icon:
-    repo: fontawesome/brands/github
+    - navigation.instant
+
   
 
   font:
@@ -62,6 +61,7 @@ markdown_extensions:
   - pymdownx.highlight
   - md_in_html
   - pymdownx.superfences
+  - pymdownx.inlinehilite
   - pymdownx.tabbed:
       alternate_style: true
   - pymdownx.tasklist:
@@ -90,6 +90,10 @@ plugins:
       module_name: docs/main
   - glightbox
 
+
+
+
+
 nav:
   - Kalyan Jewellers: index.md
   - About Us:
@@ -103,6 +107,7 @@ nav:
       - Custom Design: services/custom.md
       - Jewelry Repair: services/repair.md
   - Blog:
-      - Latest Trends: blog/index.md
+      - Blog: blog/index.md
+      - Latest Trends: blog/trends.md
   - Contact Us: contact.md
 
