@@ -1,11 +1,5 @@
 # Kalyan Bridal Collections
 
-<div class="bridal-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/bridal/hero-banner.jpg')">
-  <div class="hero-content">
-    <h1>Timeless Bridal Elegance</h1>
-    <p>Handcrafted heirlooms for your wedding day</p>
-  </div>
-</div>
 
 # **Bridal Collection – Elegance for Your Special Day**  
 

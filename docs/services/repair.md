@@ -1,11 +1,6 @@
 # Jewelry Repair & Restoration
 
-<div class="repair-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/repair/hero-banner.jpg')">
-  <div class="hero-content">
-    <h1>Expert Jewelry Care</h1>
-    <p>Restoring your precious pieces with master craftsmanship</p>
-  </div>
-</div>
+
 
 # **Jewellery Repair – Restore the Brilliance**  
 

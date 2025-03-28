@@ -1,11 +1,6 @@
 # Custom Jewelry Design
 
-<div class="custom-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/custom/hero-banner.jpg')">
-  <div class="hero-content">
-    <h1>Your Vision, Our Craftsmanship</h1>
-    <p>Create one-of-a-kind jewelry pieces with Kalyan's master artisans</p>
-  </div>
-</div>
+
 
 # **Custom Jewellery – Crafted Just for You**  
 
@@ -29,12 +24,5 @@ At **Kalyan Jewellers**, we believe that every piece of jewellery should be as u
 ✔ **A Truly Unique Piece Made Just for You**  
 
 
-<div class="cta-section" markdown>
-## Begin Your Custom Journey
 
-Schedule a complimentary design consultation with our jewelry specialists
-
-[Book Appointment](#){: .md-button .md-button--primary }  
-[View Pricing Guide](#){: .md-button }
-</div>
 

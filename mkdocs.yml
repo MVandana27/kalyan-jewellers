@@ -1,6 +1,6 @@
 site_name: Kalyan Jewellers
 site_url: https://kalyanjewellers.example.com
-
+site_author:  Manyam vandana
 theme:
   name: material
   custom_dir: docs/overrides
@@ -12,6 +12,7 @@ theme:
     - navigation.top
     - toc.integrate
     - search.highlight
+    - header.autohide
     - navigation.instant
 
   
@@ -44,13 +45,13 @@ extra_css:
   - stylesheets/extra.css
 
 extra_javascript:
-  - javascripts/custom.js
+  
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
   - javascripts/mermaid-init.js  
-  - javascripts/dropdown.js
+
   - https://unpkg.com/force-image-reload@1.0.0
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
-  - javascripts/custom-nav.js
+
 
 
 
@@ -80,12 +81,6 @@ plugins:
   - search
   - blog:
       blog_dir: 'blog'
-  - git-revision-date-localized:
-      enable_creation_date: true
-      fallback_to_build_date: true
-      type: date
-      timezone: Asia/Kolkata  # Change to your timezone
-      locale: en
   - macros:
       module_name: docs/main
   - glightbox
@@ -108,6 +103,5 @@ nav:
       - Jewelry Repair: services/repair.md
   - Blog:
       - Blog: blog/index.md
-      - Latest Trends: blog/trends.md
   - Contact Us: contact.md
 

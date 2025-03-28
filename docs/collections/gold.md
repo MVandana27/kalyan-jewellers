@@ -1,11 +1,6 @@
 # Kalyan Gold Collections
 
-<div class="gold-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('../assets/images/gold/gold-banner.jpg')">
-  <div class="hero-content">
-    <h1>Pure Gold, Timeless Beauty</h1>
-    <p>22K and 18K gold jewelry crafted to perfection</p>
-  </div>
-</div>
+
 
 # **Gold Jewellery – A Timeless Treasure**  
 

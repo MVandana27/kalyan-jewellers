@@ -1,7 +1,45 @@
-<div class="abstract-bg"></div>
+<div class="animated-bg">
+  <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
+    <defs>
+      <!-- Sky Gradient -->
+      <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#a1c4fd"/>
+        <stop offset="100%" stop-color="#c2e9fb"/>
+      </linearGradient>
+      <!-- Meadow Gradient -->
+      <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
+        <stop offset="0%" stop-color="#9be15d"/>
+        <stop offset="100%" stop-color="#00c6fb"/>
+      </linearGradient>
+      <!-- Flower Colors -->
+      <radialGradient id="flower1" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ff758c"/>
+        <stop offset="100%" stop-color="#ff7eb3"/>
+      </radialGradient>
+      <radialGradient id="flower2" cx="50%" cy="50%" r="50%">
+        <stop offset="0%" stop-color="#ffdd94"/>
+        <stop offset="100%" stop-color="#ffcc33"/>
+      </radialGradient>
+    </defs>
+    <!-- Background Sky -->
+    <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+    <!-- Rolling Hills -->
+    <path d="M0,300 Q150,250 300,300 T600,300 T900,300 V500 H0 Z" fill="url(#grassGradient)"/>
+    <!-- Flowers -->
+    <circle cx="150" cy="320" r="20" fill="url(#flower1)">
+      <animate attributeName="cy" values="320;315;320" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="180" cy="330" r="12" fill="url(#flower2)">
+      <animate attributeName="cy" values="330;325;330" dur="3s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="250" cy="340" r="16" fill="url(#flower1)">
+      <animate attributeName="cy" values="340;335;340" dur="3s" repeatCount="indefinite"/>
+    </circle>
+  </svg>
+</div>
 
 <style>
-.abstract-bg {
+.animated-bg {
   position: fixed;
   top: 0;
   left: 0;
@@ -10,33 +48,8 @@
   z-index: -1;
   overflow: hidden;
 }
-
-.abstract-bg svg {
-  width: 150%;
-  height: 150%;
-  animation: pan 30s linear infinite;
-}
-
-@keyframes pan {
-  0% { transform: translate(0, 0); }
-  100% { transform: translate(-50%, -50%); }
-}
 </style>
 
-<svg class="abstract-bg" viewBox="0 0 500 500" preserveAspectRatio="xMidYMid slice">
-  <defs>
-    <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#ff9a9e"/>
-      <stop offset="100%" stop-color="#fad0c4"/>
-    </linearGradient>
-    <linearGradient id="g2" x1="100%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#a1c4fd"/>
-      <stop offset="100%" stop-color="#c2e9fb"/>
-    </linearGradient>
-  </defs>
-  <rect width="100%" height="100%" fill="url(#g1)"/>
-  <path d="M0,0 Q250,150 500,0 L500,500 Q250,350 0,500 Z" fill="url(#g2)" opacity="0.7"/>
-</svg>
 
 
 <div style="text-align: center;">
@@ -95,6 +108,6 @@ Discover our exquisite collection of handcrafted jewelry that celebrates your sp
 
 
 
-<p class="visit-text">For full details visit <a href="https://www.kalyanjewellers.org" target="_blank">www.kalyanjewellers.org</a></p>
+<p class="visit-text">For full details visit <a href="https://www.kalyanjewellers.net/" target="_blank">www.kalyanjewellers.org</a></p>
 
 

@@ -1,13 +1,5 @@
 # Kalyan Diamond Collections
 
-<div class="diamond-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/diamonds/diamond-banner.jpg')">
-  <div class="hero-content">
-    <h1>Exceptional Diamonds, Unmatched Brilliance</h1>
-    <p>GIA-certified diamonds set in exquisite craftsmanship</p>
-  </div>
-</div>
-
-
 
 # **Diamond Jewellery – The Sparkle of Elegance**  
 

@@ -1,8 +1,7 @@
 
-# Welcome to Blog 
 
-## Recent Posts
-- [First Post](post1.md)
-- [Second Post](post2.md)
 
+### Welcome to Blog 
+## 
+here i have created a blog !!!!
 

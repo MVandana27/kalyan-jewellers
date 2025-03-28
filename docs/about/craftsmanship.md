@@ -1,11 +1,6 @@
-# The Art of Kalyan Craftsmanship
 
-<div class="craft-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('../assets/images/background/craft-banner.jpg')">
-  <div class="hero-content">
-    <h1>Where Tradition Meets Precision</h1>
-    <p>Every piece tells a story of skilled hands and passionate hearts</p>
-  </div>
-</div>
+
+
 
 ## Our Craftsmanship Philosophy
 

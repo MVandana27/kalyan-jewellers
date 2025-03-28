@@ -1,11 +1,4 @@
-# Our Heritage
-
-<div class="heritage-hero" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../assets/images/background/heritage-banner.jpg')">
-  <div class="heritage-content">
-    <h1>A Legacy of Excellence Since 1985</h1>
-    <p>Three generations of passion, precision, and timeless craftsmanship</p>
-  </div>
-</div>
+# Heritage
 
 ## The Kalyan Story
 
