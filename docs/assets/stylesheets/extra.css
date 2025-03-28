@@ -5,6 +5,19 @@
 .md-content h1:first-of-type {
     display: none;
 }
+/* Remove all grey backgrounds from navigation */
+.md-header {
+    background-color: transparent !important;
+}
+  
+.md-tabs {
+    background-color: transparent !important;
+}
+  
+
+
+
+
 
 
 
@@ -20,7 +33,7 @@
 
 /* Navigation Palette with Light Orange Background */
 .palette-menu {
-    background: rgba(189, 85, 111, 0.8); /* Light Orange with transparency */
+    background: transparent !important; /* Light Orange with transparency */
     padding: 10px;
     border-radius: 10px;
     position: fixed;
@@ -46,7 +59,7 @@
 /* Menu Sections Styled as Buttons */
 .menu-section a {
     text-decoration: none;
-    color: rgb(51, 114, 161);
+    color: rgb(11, 9, 9);
     font-weight: bold;
     padding: 10px 15px;
     background: rgba(255, 255, 255, 0.2);
@@ -56,7 +69,7 @@
 }
 
 .menu-section a:hover {
-    background: rgba(18, 18, 19, 0.4);
+    background: rgba(255, 255, 255, 0.4);
 }
 
 /* Dropdown Styling */
@@ -69,12 +82,14 @@
     position: absolute;
     top: 100%;
     left: 0;
-    background: rgba(74, 187, 202, 0.9);
     padding: 10px;
     border-radius: 5px;
     list-style: none;
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
     min-width: 200px;
+    background: transparent !important; /* Semi-transparent dropdown */
+    border: none;
+    backdrop-filter: blur(5px);
 }
 
 .dropdown-menu li {
@@ -108,44 +123,169 @@
 
 
 
-/* Make Navigation Sections Background Transparent */
-.palette-menu {
-    background: transparent !important; /* Fully transparent background */
-    padding: 10px;
-    border-radius: 0;
-    box-shadow: none; /* Remove any shadow */
-}
 
-/* Navigation Items - Keep Only Text and Dropdowns */
-.navbar {
+
+
+
+/* Mega Dropdown Styles */
+.mega-dropdown {
+    position: relative;
+  }
+  
+  .mega-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 300px; /* Adjusted width for single column */
+    background: rgba(255, 245, 235, 0.98) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1001;
+    border: 1px solid rgba(210, 105, 30, 0.15);
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .mega-dropdown:hover .mega-menu {
+    display: block;
+  }
+  
+  .mega-column {
+    width: 100%;
+  }
+  
+  .mega-column h4 {
+    color: #8B4513;
+    margin: 0 0 15px 0;
+    font-size: 1.15em;
+    border-bottom: 1px dashed rgba(139, 69, 19, 0.3);
+    padding-bottom: 8px;
     display: flex;
-    flex-direction: row;
-    gap: 15px;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .mega-column ul {
+    list-style: none;
     padding: 0;
     margin: 0;
-    list-style: none;
-}
-
-.navbar a {
-    color: rgb(11, 10, 10); /* Adjust text color as needed */
-    font-weight: bold;
+  }
+  
+  .mega-column li {
+    margin-bottom: 10px;
+  }
+  
+  .mega-column a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5a4a42;
     text-decoration: none;
-    padding: 10px 15px;
-}
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .mega-column a:hover {
+    background: rgba(210, 105, 30, 0.1);
+    transform: translateX(5px);
+  }
+  
+  .mega-column i {
+    width: 18px;
+    color: #8B4513;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+/* Mega Dropdown Styles */
+.mega-dropdown {
+    position: relative;
+  }
+  
+  .mega-menu {
+    display: none;
+    position: absolute;
+    left: 0;
+    width: 300px; /* Adjusted width for single column */
+    background: rgba(255, 245, 235, 0.98) !important;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    border-radius: 12px;
+    padding: 20px;
+    z-index: 1001;
+    border: 1px solid rgba(210, 105, 30, 0.15);
+    animation: fadeIn 0.3s ease;
+  }
+  
+  .mega-dropdown:hover .mega-menu {
+    display: block;
+  }
+  
+  .mega-column {
+    width: 100%;
+  }
+  
+  .mega-column h4 {
+    color: #8B4513;
+    margin: 0 0 15px 0;
+    font-size: 1.15em;
+    border-bottom: 1px dashed rgba(139, 69, 19, 0.3);
+    padding-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .mega-column ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .mega-column li {
+    margin-bottom: 10px;
+  }
+  
+  .mega-column a {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #5a4a42;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 14px;
+    transition: all 0.3s;
+    padding: 8px 12px;
+    border-radius: 4px;
+  }
+  
+  .mega-column a:hover {
+    background: rgba(210, 105, 30, 0.1);
+    transform: translateX(5px);
+  }
+  
+  .mega-column i {
+    width: 18px;
+    color: #8B4513;
+    font-size: 14px;
+    text-align: center;
+  }
+  
+  /* Chevron Animation */
+  .mega-dropdown > a i.fa-chevron-down {
+    margin-left: 8px;
+    font-size: 12px;
+    transition: transform 0.3s;
+  }
+  
+  .mega-dropdown:hover > a i.fa-chevron-down {
+    transform: rotate(180deg);
+  }
+  
 
-/* Dropdown Menu - Ensure it Stays Visible */
-.navbar a:hover,
-.navbar a:focus {
-    color: #ffcc00; /* Highlight on hover */
-}
-
-/* Dropdown Background Transparent */
-.navbar .dropdown-menu {
-    background: rgba(0, 0, 0, 0.7); /* Semi-transparent dropdown (optional) */
-    border: none;
-}
-
-
+  
 
 
 

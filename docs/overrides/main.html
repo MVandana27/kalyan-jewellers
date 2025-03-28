@@ -34,43 +34,82 @@
 
 
 
+
+
+
 {% block site_nav %}
-<!-- Horizontal Navigation Palette -->
+<!-- Horizontal Navigation with Separate Mega Dropdowns -->
 <div class="palette-menu">
-    <ul class="navbar">
-        <li class="menu-section"><a href="{{ base_url }}/">Kalyan Jewellers</a></li>
-        
-        <li class="menu-section dropdown">
-            <a href="#">About Us ▼</a>
-            <ul class="dropdown-menu">
-                <li><a href="{{ base_url }}/about/heritage/">Our Heritage</a></li>
-                <li><a href="{{ base_url }}/about/craftsmanship/">Craftsmanship</a></li>
-            </ul>
-        </li>
-
-        <li class="menu-section dropdown">
-            <a href="#">Collections ▼</a>
-            <ul class="dropdown-menu">
-                <li><a href="{{ base_url }}/collections/gold/">Gold Jewelry</a></li>
-                <li><a href="{{ base_url }}/collections/diamonds/">Diamond Collections</a></li>
-                <li><a href="{{ base_url }}/collections/bridal/">Bridal Jewelry</a></li>
-            </ul>
-        </li>
-
-        <li class="menu-section dropdown">
-            <a href="#">Services ▼</a>
-            <ul class="dropdown-menu">
-                <li><a href="{{ base_url }}/services/custom/">Custom Design</a></li>
-                <li><a href="{{ base_url }}/services/repair/">Jewelry Repair</a></li>
-            </ul>
-        </li>
-
-        <li class="menu-section"><a href="{{ base_url }}/blog/">Blog</a></li>
-        <li class="menu-section"><a href="{{ base_url }}/contact/">Contact Us</a></li>
-    </ul>
+  <ul class="navbar">
+    <!-- Home Link -->
+    <li class="menu-section nav-home">
+      <a href="index.md">Kalyan Jewellers</a>
+    </li>
+    
+    <!-- About Us Mega Dropdown -->
+    <li class="menu-section mega-dropdown">
+      <a href="#"><i class="fas fa-building"></i> About Us <i class="fas fa-chevron-down"></i></a>
+      <div class="mega-menu">
+        <div class="mega-column">
+          <h4><i class="fas fa-building"></i> About Us</h4>
+          <ul>
+            <li><a href="about/heritage.md"><i class="fas fa-landmark"></i> Our Heritage</a></li>
+            <li><a href="about/craftsmanship.md"><i class="fas fa-tools"></i> Craftsmanship</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Collections Mega Dropdown -->
+    <li class="menu-section mega-dropdown">
+      <a href="#"><i class="fas fa-gem"></i> Collections <i class="fas fa-chevron-down"></i></a>
+      <div class="mega-menu">
+        <div class="mega-column">
+          <h4><i class="fas fa-gem"></i> Collections</h4>
+          <ul>
+            <li><a href="collections/gold.md"><i class="fas fa-coins"></i> Gold Jewelry</a></li>
+            <li><a href="collections/diamonds.md"><i class="fas fa-gem"></i> Diamond Collections</a></li>
+            <li><a href="collections/bridal.md"><i class="fas fa-heart"></i> Bridal Jewelry</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Services Mega Dropdown -->
+    <li class="menu-section mega-dropdown">
+      <a href="#"><i class="fas fa-concierge-bell"></i> Services <i class="fas fa-chevron-down"></i></a>
+      <div class="mega-menu">
+        <div class="mega-column">
+          <h4><i class="fas fa-concierge-bell"></i> Services</h4>
+          <ul>
+            <li><a href="services/custom.md"><i class="fas fa-pencil-ruler"></i> Custom Design</a></li>
+            <li><a href="services/repair.md"><i class="fas fa-hammer"></i> Jewelry Repair</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Blog Mega Dropdown -->
+    <li class="menu-section mega-dropdown">
+      <a href="#"><i class="fas fa-blog"></i> Blog <i class="fas fa-chevron-down"></i></a>
+      <div class="mega-menu">
+        <div class="mega-column">
+          <h4><i class="fas fa-blog"></i> Blog</h4>
+          <ul>
+            <li><a href="blog/index.md"><i class="fas fa-newspaper"></i> Blog</a></li>
+            <li><a href="blog/trends.md"><i class="fas fa-chart-line"></i> Latest Trends</a></li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <!-- Contact Link -->
+    <li class="menu-section nav-contact">
+      <a href="contact.md"><i class="fas fa-envelope"></i> Contact Us</a>
+    </li>
+  </ul>
 </div>
 {% endblock %}
-
 
 
 
