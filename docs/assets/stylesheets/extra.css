@@ -13,9 +13,6 @@
 .md-tabs {
     background-color: transparent !important;
 }
-  
-
-
 
 
 
@@ -42,7 +39,7 @@
     width: auto;
     display: flex;
     justify-content: flex-start; /* Align to left */
-    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: transparent !important;
     z-index: 1000;
 }
 
@@ -62,13 +59,13 @@
     color: rgb(11, 9, 9);
     font-weight: bold;
     padding: 10px 15px;
-    background: rgba(255, 255, 255, 0.2);
+    background: transparent !important;
     border-radius: 5px;
-    display: block;
+    display:block;
 }
 
 .menu-section a:hover {
-    background: rgba(255, 255, 255, 0.4);
+    background: transparent !important;
 }
 
 /* Dropdown Styling */
@@ -87,7 +84,7 @@
     min-width: 200px;
     background: transparent !important; 
     border: none;
-    backdrop-filter: blur(5px);
+
 }
 
 .dropdown-menu li {
@@ -123,7 +120,14 @@
 
 
 
+
+
   
+
+  
+
+  
+
 
 
 

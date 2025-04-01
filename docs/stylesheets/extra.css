@@ -8,9 +8,45 @@
 
 
 
+/* docs/stylesheets/extra.css */
 
-
-
+/* Background container with theme-aware colors */
+.themed-bg {
+    position: relative;
+    padding: 2rem;
+    border-radius: 12px;
+    margin: 2rem 0;
+    
+    /* Light theme default */
+    background: linear-gradient(
+      135deg,
+      var(--md-primary-fg-color--light) 0%,
+      var(--md-primary-bg-color) 100%
+    );
+    
+    /* Dark theme override */
+    [data-md-color-scheme="slate"] & {
+      background: linear-gradient(
+        135deg,
+        var(--md-primary-fg-color--dark) 0%,
+        var(--md-accent-fg-color) 100%
+      );
+    }
+  }
+  
+  /* Content styling */
+  .themed-bg__content {
+    position: relative;
+    z-index: 2;
+    padding: 1.5rem;
+    background: rgba(var(--md-default-bg-color), 0.9);
+    border-radius: 8px;
+    backdrop-filter: blur(4px);
+    
+    [data-md-color-scheme="slate"] & {
+      background: rgba(var(--md-default-bg-color), 0.8);
+    }
+  }
 
 
 

@@ -23,5 +23,5 @@ Our bridal collection is designed to complement every bride’s unique style, fr
 ## **Visit Us & Find Your Perfect Bridal Set**  
 Let us be a part of your wedding journey. Explore our **stunning bridal collections** online or visit our nearest showroom for a personalized shopping experience.  
 
-
+[<span class="twemoji">📞</span> Contact Our Team](/contact){ .md-button .md-button--primary }
 

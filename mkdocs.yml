@@ -1,12 +1,15 @@
 site_name: Kalyan Jewellers
 site_url: https://kalyanjewellers.example.com
-site_author:  Manyam vandana
+site_author:  "Manyam vandana"
 theme:
   name: material
   custom_dir: docs/overrides
-
+  icon:
+    repo: fontawesome/brands/git-alt
+ 
 
   features:
+    
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
@@ -43,11 +46,13 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
   - stylesheets/extra.css
+  
 
 extra_javascript:
-  
-  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js
+
   - javascripts/mermaid-init.js  
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js\
+
 
   - https://unpkg.com/force-image-reload@1.0.0
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
@@ -76,17 +81,37 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-
+  
 plugins:
   - search
-  - blog:
-      blog_dir: 'blog'
+  - blog
   - macros:
       module_name: docs/main
   - glightbox
+  - minify:
+      minify_html: true
+  - git-committers:
+      enabled: true
+      repository: Vandana/ Kalyan-Jewellers
+      branch: main
+     
 
+extra:
+  mermaid:
+    theme: 
+      base: 
+        primaryColor: "#f5f5f5"
+        primaryBorderColor: "#2e86de"
+        lineColor: "#2e86de"
+        primaryTextColor: "#333"
+    flowchart:
+      diagramPadding: 20
+      useMaxWidth: false
+    fontSize: 16px
 
-
+  repo_url:  https://github.com/MVandana27/kalyan-jewellers.git
+  repo_name: Vandana/Kalyan-Jewellers
+ 
 
 
 nav:
