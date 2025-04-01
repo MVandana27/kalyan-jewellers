@@ -1,5 +1,8 @@
+# docs/blog/authors.yml
 authors:
-  squidfunk:
+  Kalyan-Jewellers:
     name: Manyam Vandana
     description: Creator
     url: https://github.com/MVandana27/kalyan-jewellers.git
+    social:
+      github: MVandana27

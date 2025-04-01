@@ -46,7 +46,7 @@ theme:
 extra_css:
   - assets/stylesheets/extra.css
   - stylesheets/extra.css
-  
+  - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
 
 extra_javascript:
 
