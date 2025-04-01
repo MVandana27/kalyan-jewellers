@@ -34,12 +34,12 @@
     padding: 10px;
     border-radius: 10px;
     position: fixed;
-    top: 50px;
+    top: 0px;
     left: 20px;  /* Move to the left */
     width: auto;
     display: flex;
     justify-content: flex-start; /* Align to left */
-    box-shadow: transparent !important;
+    box-shadow: none  !important;
     z-index: 1000;
 }
 
@@ -56,7 +56,7 @@
 /* Menu Sections Styled as Buttons */
 .menu-section a {
     text-decoration: none;
-    color: rgb(11, 9, 9);
+    color: rgb(1, 5, 9);
     font-weight: bold;
     padding: 10px 15px;
     background: transparent !important;
@@ -65,7 +65,7 @@
 }
 
 .menu-section a:hover {
-    background: transparent !important;
+    background: rgba(56, 222, 34, 0.1);
 }
 
 /* Dropdown Styling */
@@ -106,6 +106,7 @@
     display: block;
 }
 
+
 /* Align Content to the Right */
 .md-content {
     margin-left: auto;
@@ -126,7 +127,9 @@
 
   
 
-  
+
+
+
 
 
 

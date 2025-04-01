@@ -27,14 +27,14 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: indigo
+      primary: light blue
       accent: indigo
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: black
+      primary: purple
       accent: indigo
       toggle:
         icon: material/weather-night
@@ -53,7 +53,7 @@ extra_javascript:
   - javascripts/mermaid-init.js  
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js\
 
-
+  
   - https://unpkg.com/force-image-reload@1.0.0
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
 
@@ -90,10 +90,7 @@ plugins:
   - glightbox
   - minify:
       minify_html: true
-  - git-committers:
-      enabled: true
-      repository: Vandana/ Kalyan-Jewellers
-      branch: main
+  
      
 
 extra:
@@ -109,8 +106,6 @@ extra:
       useMaxWidth: false
     fontSize: 16px
 
-  repo_url:  https://github.com/MVandana27/kalyan-jewellers.git
-  repo_name: Vandana/Kalyan-Jewellers
  
 
 
