@@ -21,6 +21,9 @@ Gold has been a symbol of purity, prosperity, and elegance for centuries. At **K
 
 ## **Visit Us & Explore the Beauty of Gold**  
 Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you** or browse online for the perfect piece.  
+
+
+
 [<span class="twemoji">📞</span> Contact Our Team](/contact){ .md-button .md-button--primary }
 
 

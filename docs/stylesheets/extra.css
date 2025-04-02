@@ -9,7 +9,7 @@
 
 
 body {
-    background-image: url("../assets/backgrounds/istockphoto.jpg"); /* Adjust the path */
+    background-image: url("../assets/backgrounds/istockphoto.jpg"); 
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
@@ -20,6 +20,8 @@ body {
     padding: 0; 
 
 }
+
+  
 
 /* Light Theme (Default) */
 [data-md-color-scheme="default"] {
