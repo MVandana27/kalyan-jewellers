@@ -8,3 +8,30 @@
 
 
 
+body {
+    background-image: url("../assets/backgrounds/istockphoto.jpg"); /* Adjust the path */
+    background-size: cover;
+    background-position: top left;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0; 
+
+}
+
+/* Light Theme (Default) */
+[data-md-color-scheme="default"] {
+    --custom-text-color: black;
+}
+
+/* Dark Theme */
+[data-md-color-scheme="slate"] {
+    --custom-text-color: white;
+}
+
+/* Apply the text color globally */
+body, .md-content, .mermaid {
+    color: var(--custom-text-color) !important;
+}

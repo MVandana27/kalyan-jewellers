@@ -82,52 +82,8 @@
 
 
 
-{% macro display_author(author_id) %}
-  {% set author = config.extra.authors.get(author_id) %}
-  {% if author %}
-    <div class="author-card" style="
-        display: flex;
-        align-items: center;
-        gap: 1rem;
-        margin: 2rem 0;
-        padding: 1.5rem;
-        background: rgba(255,255,255,0.1);
-        border-radius: 8px;
-        border-left: 4px solid var(--md-primary-fg-color);
-    ">
-      <div class="author-avatar" style="
-          width: 80px;
-          height: 80px;
-          border-radius: 50%;
-          background: var(--md-primary-fg-color);
-          color: white;
-          display: flex;
-          align-items: center;
-          justify-content: center;
-          font-size: 2rem;
-          font-weight: bold;
-      ">
-        {{ author.name.split(' ')|map('first')|join('') }}
-      </div>
-      <div class="author-details">
-        <h3 style="margin: 0 0 0.5rem 0;">{{ author.name }}</h3>
-        <p style="margin: 0 0 0.5rem 0; opacity: 0.8;">{{ author.description }}</p>
-        <div class="author-links" style="display: flex; gap: 0.75rem;">
-          {% if author.url %}
-            <a href="{{ author.url }}" target="_blank" style="color: inherit; opacity: 0.7; transition: opacity 0.2s;">
-              <i class="fas fa-link"></i> Website
-            </a>
-          {% endif %}
-          {% if author.social.github %}
-            <a href="https://github.com/{{ author.social.github }}" target="_blank" style="color: inherit; opacity: 0.7; transition: opacity 0.2s;">
-              <i class="fab fa-github"></i> GitHub
-            </a>
-          {% endif %}
-        </div>
-      </div>
-    </div>
-  {% endif %}
-{% endmacro %}
+
+
 
 
 

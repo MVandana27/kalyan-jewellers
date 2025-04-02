@@ -9,7 +9,7 @@ theme:
  
 
   features:
-    
+   
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
@@ -27,15 +27,15 @@ theme:
   palette:
     - media: "(prefers-color-scheme: light)"
       scheme: default
-      primary: light blue
-      accent: indigo
+      primary: deep purple
+      accent: light blue
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
-      primary: purple
-      accent: indigo
+      primary: yellow
+      accent: deep orange
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -51,7 +51,7 @@ extra_css:
 extra_javascript:
 
   - javascripts/mermaid-init.js  
-  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js\
+  - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js/
 
   
   - https://unpkg.com/force-image-reload@1.0.0
@@ -106,7 +106,7 @@ extra:
       useMaxWidth: false
     fontSize: 16px
 
- 
+  
 
 
 nav:

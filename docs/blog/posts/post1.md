@@ -1,12 +1,11 @@
 ---
 title: My Jewelry Blog Post
 author: Kalyan-Jewellers
-date: 2023-11-15
+date: 2025-04-01
 ---
 
-{% from "main.html" import display_author with context %}
 
-{{ display_author(author) }}
+
 
 # Welcome to my jewelry blog
 

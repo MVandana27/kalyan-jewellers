@@ -59,7 +59,7 @@
     color: rgb(1, 5, 9);
     font-weight: bold;
     padding: 10px 15px;
-    background: transparent !important;
+    background: none;
     border-radius: 5px;
     display:block;
 }
@@ -98,7 +98,7 @@
 }
 
 .dropdown-menu li a:hover {
-    background: rgba(186, 20, 20, 0.1);
+    background: rgba(215, 147, 147, 0.1);
 }
 
 /* Show dropdown on hover */
@@ -124,9 +124,6 @@
 
 
   
-
-  
-
 
 
 
