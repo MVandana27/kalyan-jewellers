@@ -16,21 +16,10 @@
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
 /* Navigation Palette with Light Orange Background */
+
 .palette-menu {
-    background: transparent !important; /* Light Orange with transparency */
+    background: transparent !important; 
     padding: 10px;
     border-radius: 10px;
     position: fixed;
