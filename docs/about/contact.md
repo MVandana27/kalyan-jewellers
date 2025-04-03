@@ -28,3 +28,10 @@ If you have any questions or need support, feel free to reach out to us using th
 ## 📧 Email
 - Support: [manyam.vandana@wyzmindz.com](mailto:manyam.vandana@wyzmindz.com)
 
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+</style>

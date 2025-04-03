@@ -50,3 +50,10 @@ Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you**
 [<span class="twemoji">📞</span> Contact Our Team](/about/contact/){ .md-button .md-button--primary }
 
 
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+</style>

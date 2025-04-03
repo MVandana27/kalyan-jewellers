@@ -52,3 +52,10 @@ With a presence in **India, UAE, Qatar, Oman, Saudi Arabia, Bahrain, and Kuwait*
 At Kalyan Jewellers, we don't just sell jewellery; we build relationships that last a lifetime. Every piece we create is designed to tell a story, mark a milestone, and be cherished for generations.  
 
 
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+</style>

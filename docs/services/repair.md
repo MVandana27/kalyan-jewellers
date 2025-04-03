@@ -72,11 +72,12 @@ flowchart TD
 <style>
 /* Repair Flowchart Styling */
 .mermaid {
-  background: var(--md-code-bg-color);
-  border-radius: 10px;
-  padding: 20px;
-  margin: 25px 0;
-  text-align : center;
+    background: rgba(255, 255, 255, 0.1); /* Adjust transparency */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Adds a subtle blur effect */
 }
 
 .mermaid .node rect {
@@ -98,5 +99,13 @@ flowchart TD
 .mermaid .node rect.completion {
   fill: #f3e5f5;
   stroke: #9c27b0;
+}
+</style>
+
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
 }
 </style>

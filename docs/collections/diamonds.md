@@ -77,12 +77,12 @@ flowchart TD
 ```
 <style>/* Updated Diamond Flowchart Styling */
 .mermaid {
-  background: var(--md-code-bg-color);
-  border-radius: 15px;
-  padding: 20px;
-  margin: 25px 0;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  text-align: center;
+    background: rgba(255, 255, 255, 0.1); /* Adjust transparency */
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px 0;
+    text-align: center;
+    backdrop-filter: blur(5px); /* Adds a subtle blur effect */
 }
 
 .mermaid .node rect {
@@ -108,5 +108,13 @@ flowchart TD
   fill: #e3f2fd;
   stroke: #42a5f5;
   border-radius: 12px;
+}
+</style>
+
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
 }
 </style>

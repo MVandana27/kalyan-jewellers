@@ -46,3 +46,10 @@ At **Kalyan Jewellers**, we believe that every piece of jewellery should be as u
 
 
 
+<style>
+h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
+    opacity: 0.7; /* Dims the text when hovered */
+    transition: opacity 0.3s ease-in-out;
+    cursor: pointer;
+}
+</style>

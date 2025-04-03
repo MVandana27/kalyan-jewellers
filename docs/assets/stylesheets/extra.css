@@ -18,14 +18,15 @@
     border-radius: 10px;
     position: fixed;
     top: 0px;
-    left: 20px;
+    left: 0px;
     /* Move to the left */
     width: auto;
     display: flex;
     justify-content: flex-start;
     /* Align to left */
-    box-shadow: rgb(1, 5, 9);
+    box-shadow: rgb(7, 11, 14);
     z-index: 1000;
+    transition: top 0.1s ease-in-out;
 }
 
 /* Horizontal Navigation */
@@ -42,7 +43,8 @@
 /* Menu Sections Styled as Buttons */
 .menu-section a {
     text-decoration: none;
-    color: rgb(1, 5, 9);
+    color: white !important;
+    font-size: small;
     font-weight: bold;
     padding: 10px 15px;
     background: none;
@@ -51,7 +53,7 @@
 }
 
 .menu-section a:hover {
-    background: rgba(29, 157, 12, 0.1);
+    background: rgba(10, 162, 244, 0.1);
 }
 
 /* Dropdown Styling */
@@ -65,12 +67,14 @@
     top: 100%;
     left: 0;
     padding: 10px;
-    border-radius: 5px;
     list-style: none;
     min-width: 200px;
-    background: rgb(66, 71, 70);
-    border: none;
-
+    background-color: #E5E5E5;
+    backdrop-filter: blur(10px);
+    /* Adds a subtle blur effect */
+    border-radius: 8px;
+    /* Optional: Rounds the corners */
+    transition: background-color 0.3s ease-in-out;
 }
 
 .dropdown-menu li {
@@ -78,18 +82,46 @@
 }
 
 .dropdown-menu li a {
-    color: rgb(10, 9, 9);
+    color: black !important;
     text-decoration: none;
     display: block;
+    font-size: small;
 }
 
 .dropdown-menu li a:hover {
-    background: rgba(165, 232, 179, 0.1);
+    background-color: rgb(63, 106, 148);
 }
 
-/* Show dropdown on hover */
 .dropdown:hover .dropdown-menu {
     display: block;
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+.md-nav__dropdown a:hover {
+    background-color: rgba(104, 68, 245, 0.2);
+    /* Light hover effect */
+}
+
+.md-nav__dropdown a {
+    color: white !important;
+    /* Ensures text is visible */
+}
+
+.palette-menu,
+.md-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* Ensure it has a background */
+    z-index: 1000;
+    transition: top 0.1s ease-in-out;
+}
+
+/* Add padding to the body to prevent content from being hidden behind the navbar */
+body {
+    padding-top: 60px;
+    /* Adjust this based on navbar height */
 }
 
 

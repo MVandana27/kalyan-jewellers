@@ -25,14 +25,14 @@ theme:
     - media: "(prefers-color-scheme: light)"
       scheme: default
       primary: light blue
-      accent: light blue
+      accent: deep orange
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
     - media: "(prefers-color-scheme: dark)"
       scheme: slate
       primary: light green
-      accent: deep orange
+      accent: deep purple
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -47,7 +47,7 @@ extra_css:
 extra_javascript:
   - javascripts/mermaid-init.js
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js/
-
+  - javascripts/extra.js
   - https://unpkg.com/force-image-reload@1.0.0
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
 
@@ -101,9 +101,11 @@ nav:
       - Craftsmanship: about/craftsmanship.md
       - Contact Us: about/contact.md
   - Collections:
+      - Overview: collections/index.md
       - Gold Jewelry: collections/gold.md
       - Diamond Collections: collections/diamonds.md
       - Bridal Jewelry: collections/bridal.md
   - Services:
+      - Overview: services/index.md
       - Custom Design: services/custom.md
       - Jewelry Repair: services/repair.md
