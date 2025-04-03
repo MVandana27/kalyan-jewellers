@@ -1,5 +1,26 @@
 
+<style>
+/* Light Theme */
+[data-md-color-scheme="default"] h1, 
+[data-md-color-scheme="default"] h2, 
+[data-md-color-scheme="default"] h3, 
+[data-md-color-scheme="default"] h4, 
+[data-md-color-scheme="default"] h5, 
+[data-md-color-scheme="default"] h6 {
+    color: blue !important;
+}
 
+/* Dark Theme */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3, 
+[data-md-color-scheme="slate"] h4, 
+[data-md-color-scheme="slate"] h5, 
+[data-md-color-scheme="slate"] h6 {
+    color:rgb(245, 121, 5) !important;
+}
+</style>
+</style>
 # Heritage
 
 ## The Kalyan Story
@@ -43,6 +64,7 @@ flowchart TD
   .mermaid .node rect.gold {
     filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.3));
   }
+  
 </style>
 
 

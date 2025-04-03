@@ -1,3 +1,26 @@
+
+<style>
+/* Light Theme */
+[data-md-color-scheme="default"] h1, 
+[data-md-color-scheme="default"] h2, 
+[data-md-color-scheme="default"] h3, 
+[data-md-color-scheme="default"] h4, 
+[data-md-color-scheme="default"] h5, 
+[data-md-color-scheme="default"] h6 {
+    color:rgb(46, 114, 231)!important;
+}
+
+/* Dark Theme */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3, 
+[data-md-color-scheme="slate"] h4, 
+[data-md-color-scheme="slate"] h5, 
+[data-md-color-scheme="slate"] h6 {
+    color:rgb(72, 16, 44) !important;
+}
+</style>
+
 # Kalyan Bridal Collections
 
 

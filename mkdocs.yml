@@ -1,15 +1,14 @@
 site_name: Kalyan Jewellers
 site_url: https://kalyanjewellers.example.com
-site_author:  "Manyam vandana"
+site_author: "Manyam vandana"
 theme:
   name: material
   custom_dir: docs/overrides
   icon:
     repo: fontawesome/brands/git-alt
- 
 
   features:
-   
+    - search.share
     - navigation.tabs.sticky
     - navigation.sections
     - navigation.top
@@ -17,8 +16,6 @@ theme:
     - search.highlight
     - header.autohide
     - navigation.instant
-
-  
 
   font:
     text: Merriweather Sans
@@ -42,24 +39,17 @@ theme:
   logo: assets/images/kalyan_logo.png
   favicon: assets/images/KALYANkj.png
 
-
 extra_css:
   - assets/stylesheets/extra.css
   - stylesheets/extra.css
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css
 
 extra_javascript:
-
-  - javascripts/mermaid-init.js  
+  - javascripts/mermaid-init.js
   - https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.min.js/
 
-  
   - https://unpkg.com/force-image-reload@1.0.0
   - https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js
-
-
-
-
 
 markdown_extensions:
   - attr_list
@@ -81,7 +71,6 @@ markdown_extensions:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
-  
 plugins:
   - search
   - blog
@@ -90,13 +79,11 @@ plugins:
   - glightbox
   - minify:
       minify_html: true
-  
-     
 
 extra:
   mermaid:
-    theme: 
-      base: 
+    theme:
+      base:
         primaryColor: "#f5f5f5"
         primaryBorderColor: "#2e86de"
         lineColor: "#2e86de"
@@ -105,9 +92,6 @@ extra:
       diagramPadding: 20
       useMaxWidth: false
     fontSize: 16px
-
-  
-
 
 nav:
   - Kalyan Jewellers: index.md
@@ -124,4 +108,3 @@ nav:
   - Blog:
       - Blog: blog/index.md
   - Contact Us: contact.md
-

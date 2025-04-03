@@ -9,17 +9,20 @@
 {% endblock %}
 
 <head>
-<script>
-    document.addEventListener("DOMContentLoaded", function () {
-      let mermaidBlocks = document.querySelectorAll(".language-mermaid");
-      mermaidBlocks.forEach(block => block.style.display = "none");
-      
-      setTimeout(() => {
-        mermaidBlocks.forEach(block => block.style.display = "block");
-      }, 100); // Small delay to prevent flashing
-    });
-</script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            let mermaidBlocks = document.querySelectorAll(".language-mermaid");
+            mermaidBlocks.forEach(block => block.style.display = "none");
+
+            setTimeout(() => {
+                mermaidBlocks.forEach(block => block.style.display = "block");
+            }, 100); // Small delay to prevent flashing
+        });
+    </script>
 </head>
+
+
+
 
 
 
@@ -39,12 +42,16 @@
 <div class="palette-menu">
     <ul class="navbar">
         <li class="menu-section"><a href="{{ base_url }}/">Kalyan Jewellers</a></li>
-        
+
         <li class="menu-section dropdown">
-            <a href="#">About Us </a>
+            <a class="nav-link" href="{{ base_url }}/about/index" id="aboutDropdown">
+                About Us
+            </a>
             <ul class="dropdown-menu">
                 <li><a href="{{ base_url }}/about/heritage/"> Our Heritage</a></li>
                 <li><a href="{{ base_url }}/about/craftsmanship/"> Craftsmanship</a></li>
+                <li><a href="{{ base_url }}/about/contact/"> Contact Us</a></li>
+
             </ul>
         </li>
 
@@ -71,43 +78,3 @@
     </ul>
 </div>
 {% endblock %}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

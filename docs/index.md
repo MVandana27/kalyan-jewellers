@@ -51,6 +51,27 @@
 </style>
 
 
+<style>
+/* Light Theme */
+[data-md-color-scheme="default"] h1, 
+[data-md-color-scheme="default"] h2, 
+[data-md-color-scheme="default"] h3, 
+[data-md-color-scheme="default"] h4, 
+[data-md-color-scheme="default"] h5, 
+[data-md-color-scheme="default"] h6 {
+    color: purple !important;
+}
+
+/* Dark Theme */
+[data-md-color-scheme="slate"] h1, 
+[data-md-color-scheme="slate"] h2, 
+[data-md-color-scheme="slate"] h3, 
+[data-md-color-scheme="slate"] h4, 
+[data-md-color-scheme="slate"] h5, 
+[data-md-color-scheme="slate"] h6 {
+    color: black !important;
+}
+</style>
 
 <div style="text-align: center;">
     <img src="assets/images/kalyan_logo.png" class="logo" style="pointer-events: none;">
@@ -61,6 +82,7 @@ Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, of
 For decades, **Kalyan Jewellers** has been synonymous with purity, elegance, and exquisite craftsmanship. We take pride in offering a breathtaking collection of **gold, diamond, platinum, and gemstone jewelry**, designed to celebrate every special moment of your life.  
 
 ## **Discover Timeless Beauty**  
+
 
 At **Kalyan Jewellers**, every piece is crafted with precision and passion, blending **heritage, artistry, and modern design**. Whether you're looking for a **regal bridal set, a contemporary diamond ring, or a timeless temple necklace**, we have something for every occasion.  
 
@@ -85,7 +107,6 @@ At **Kalyan Jewellers**, every piece is crafted with precision and passion, blen
 ## **Visit Us & Experience Luxury**  
 
 Explore our stunning collection online or visit our nearest showroom for a personalized experience. Let **Kalyan Jewellers** help you find the perfect piece that defines your elegance and style.  
-
 
 
 

@@ -2,14 +2,15 @@
 .md-header__title {
     visibility: hidden;
 }
+
 .md-top {
     display: none !important;
-  }
+}
 
 
 
 body {
-    background-image: url("../assets/backgrounds/istockphoto.jpg"); 
+    background-image: url("../assets/backgrounds/pexels-photo-459037.webp");
     background-size: cover;
     background-position: top left;
     background-attachment: fixed;
@@ -17,23 +18,52 @@ body {
     width: 100%;
     height: 100%;
     margin: 0;
-    padding: 0; 
+    padding: 0;
 
 }
 
 
 
-/* Light Theme (Default) */
+
+
+
+
+
+
+
+
+
+
+/* Light theme styles */
 [data-md-color-scheme="default"] {
-    --custom-text-color: black;
+    --custom-font-color: #050404;
+    /* Dark text for light theme */
+    --custom-font-family: "Arial", Arial;
 }
 
-/* Dark Theme */
+/* Dark theme styles */
 [data-md-color-scheme="slate"] {
-    --custom-text-color: white;
+    --custom-font-color: white;
+    /* Light text for dark theme */
+    --custom-font-family: "san serif", Arial;
 }
 
-/* Apply the text color globally */
-body, .md-content, .mermaid {
-    color: var(--custom-text-color) !important;
+/* Apply custom styles */
+body {
+    color: var(--custom-font-color);
+    font-family: var(--custom-font-family);
+}
+
+/* Headings */
+h1,
+h2,
+h3 {
+    color: var(--custom-font-color);
+    font-family: var(--custom-font-family);
+}
+
+/* Paragraphs */
+p {
+    color: var(--custom-font-color);
+    font-family: var(--custom-font-family);
 }
