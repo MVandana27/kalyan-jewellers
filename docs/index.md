@@ -120,7 +120,7 @@ Explore our stunning collection online or visit our nearest showroom for a perso
 Discover our exquisite collection of handcrafted jewelry that celebrates your special moments
 
 [View Collections](/collections/gold){: .md-button .md-button--primary }
-[Book Consultation](/contact){: .md-button }
+[Book Consultation](/about/contact){: .md-button }
 
 </div>
 

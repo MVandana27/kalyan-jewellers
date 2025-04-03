@@ -96,6 +96,7 @@ extra:
 nav:
   - Kalyan Jewellers: index.md
   - About Us:
+      - Overview: about/index.md
       - Our Heritage: about/heritage.md
       - Craftsmanship: about/craftsmanship.md
       - Contact Us: about/contact.md
@@ -106,5 +107,3 @@ nav:
   - Services:
       - Custom Design: services/custom.md
       - Jewelry Repair: services/repair.md
-  - Blog:
-      - Blog: blog/index.md

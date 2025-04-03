@@ -47,6 +47,6 @@ Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you**
 
 
 
-[<span class="twemoji">📞</span> Contact Our Team](/contact){ .md-button .md-button--primary }
+[<span class="twemoji">📞</span> Contact Our Team](/about/contact/){ .md-button .md-button--primary }
 
 
