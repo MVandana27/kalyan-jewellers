@@ -98,6 +98,7 @@ nav:
   - About Us:
       - Our Heritage: about/heritage.md
       - Craftsmanship: about/craftsmanship.md
+      - Contact Us: about/contact.md
   - Collections:
       - Gold Jewelry: collections/gold.md
       - Diamond Collections: collections/diamonds.md
@@ -107,4 +108,3 @@ nav:
       - Jewelry Repair: services/repair.md
   - Blog:
       - Blog: blog/index.md
-  - Contact Us: contact.md
