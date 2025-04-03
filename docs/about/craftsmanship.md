@@ -18,7 +18,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: yellow !important;
+    color: rgb(245, 45, 5) !important;
 }
 </style>
 
@@ -41,14 +41,16 @@ At Kalyan Jewellers, we blend centuries-old techniques with modern technology to
 }}}%%
 flowchart TD
   classDef gold fill:#fff9e6,stroke:#d4af37,stroke-width:2px
-  classDef artisan fill:#fff0f0,stroke:#c62828,stroke-width:2px
+  classDef artisan fill:#fff0f0,stroke:#c62828,stroke-width:2px 
+  classDef milestone fill:#fff,stroke:#4caf50,stroke-width:2px,stroke-dasharray:5,rx:50,ry:50,color:#666
   classDef final fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
+  classDef blue-theme fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,rx:50,ry:50,color:#000000
 
   Start([Craftsmanship\nInitiation]):::gold
-  Design["24K Gold Design\n& CAD Modeling"]:::gold
+  Design["24K Gold Design\n& CAD Modeling"]:::milestone
   Handmade["Handmade\nComponents"]:::artisan
-  Machine["Machine\nPrecision Work"]:::gold
-  Assembly["Assembly &\nFinishing"]:::gold
+  Machine["Machine\nPrecision Work"]:::artisan
+  Assembly["Assembly &\nFinishing"]:::blue-theme
   QC[Quality\nControl]:::final
   Complete[Finished\nJewelry]:::final
 
@@ -74,7 +76,7 @@ flowchart TD
 .mermaid .node rect {
   rx: 6px;
   ry: 6px;
-  stroke-width: 2px;
+  stroke-width: 4px;
   filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
 }
 
@@ -92,6 +94,7 @@ flowchart TD
   fill: #e8f5e9;
   stroke: #2e7d32;
 }
+
 
 </style>
 

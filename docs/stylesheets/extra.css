@@ -24,46 +24,28 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-
-
-/* Light theme styles */
-[data-md-color-scheme="default"] {
-    --custom-font-color: #050404;
-    /* Dark text for light theme */
-    --custom-font-family: "Arial", Arial;
-}
-
-/* Dark theme styles */
+/* Apply black background to entire page in dark mode */
 [data-md-color-scheme="slate"] {
-    --custom-font-color: white;
-    /* Light text for dark theme */
-    --custom-font-family: "san serif", Arial;
+    background-color: black !important;
 }
 
-/* Apply custom styles */
-body {
-    color: var(--custom-font-color);
-    font-family: var(--custom-font-family);
+/* Ensure content areas are also black */
+[data-md-color-scheme="slate"] .md-content,
+[data-md-color-scheme="slate"] .md-main,
+[data-md-color-scheme="slate"] .md-sidebar {
+    background-color: black !important;
+    color: white !important;
+    /* Ensure text is readable */
 }
 
-/* Headings */
-h1,
-h2,
-h3 {
-    color: var(--custom-font-color);
-    font-family: var(--custom-font-family);
+/* Style links and text */
+
+
+[data-md-color-scheme="slate"] .md-nav__link {
+    color: white !important;
 }
 
-/* Paragraphs */
-p {
-    color: var(--custom-font-color);
-    font-family: var(--custom-font-family);
+
+.language-mermaid {
+    display: none !important;
 }

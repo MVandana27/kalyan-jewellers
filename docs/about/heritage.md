@@ -17,7 +17,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color:rgb(245, 121, 5) !important;
+    color:rgb(5, 245, 209) !important;
 }
 </style>
 </style>
@@ -38,17 +38,23 @@ Founded in 1985 by Shri Kalyanaraman Iyer, what began as a small jewelry worksho
 
 
 ```mermaid
-%%{init: {'flowchart': {'htmlLabels': true}}}%%
+%%{init: {'flowchart': {'htmlLabels': true, 'nodeSpacing': 30, 'rankSpacing': 50}}}%%
 flowchart TD
-  classDef gold fill:#f8f3e6,stroke:#d4af37,stroke-width:2px
-  classDef milestone fill:#fff,stroke:#4caf50,stroke-width:2px,stroke-dasharray:5
+  classDef gold fill:#f8f3e6,stroke:#d4af37,stroke-width:2px,rx:50,ry:50,color:#666
+  classDef milestone fill:#fff,stroke:#4caf50,stroke-width:2px,stroke-dasharray:5,rx:50,ry:50,color:#666
+  classDef blue-theme fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,rx:50,ry:50,color:#000000
+  classDef artisan fill:#fff0f0,stroke:#c62828,stroke-width:2px 
 
   K["Kalyan Jewellers\nFounded 1993 in Kerala"]:::gold
   M1995["1995\nFirst flagship showroom\nin Thrissur"]:::milestone
-  M2010["2010\nInternational expansion\nUAE launch"]:::milestone
-  M2023["2023\n300+ showrooms\n21 countries"]:::milestone
+  M2010["2010\nInternational expansion\nUAE launch"]:::blue-theme
+  M2023["2023\n300+ showrooms\n21 countries"]:::artisan
 
   K --> M1995 --> M2010 --> M2023
+
+
+
+
 ```
 <style>
 /* Mermaid diagram styling */
@@ -60,12 +66,16 @@ flowchart TD
     text-align: center;
     backdrop-filter: blur(5px); /* Adds a subtle blur effect */
 }
-  
+.mermaid .node rect {
+    rx: 80px !important;
+    ry: 40px !important;
+   
+}
   /* Gold-themed nodes */
-  .mermaid .node rect.gold {
-    filter: drop-shadow(0 2px 4px rgba(212, 175, 55, 0.3));
-  }
-  
+.mermaid .node rect.gold {
+    filter: drop-shadow(0 4px 6px rgba(212, 175, 55, 0.3));
+}
+
 </style>
 
 <style>

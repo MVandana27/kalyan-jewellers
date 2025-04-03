@@ -6,7 +6,7 @@
 [data-md-color-scheme="default"] h4, 
 [data-md-color-scheme="default"] h5, 
 [data-md-color-scheme="default"] h6 {
-    color: purple !important;
+    color: rgb(152, 2, 89) !important;
 }
 
 /* Dark Theme */
@@ -16,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: blue !important;
+    color: orange !important;
 }
 </style>
 # About Kalyan Jewellers  

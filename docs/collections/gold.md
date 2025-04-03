@@ -17,7 +17,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color:rgb(35, 144, 174) !important;
+    color:rgb(7, 163, 206) !important;
 }
 </style>
 

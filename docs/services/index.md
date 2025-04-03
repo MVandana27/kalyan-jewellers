@@ -16,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: rgb(62, 35, 9) !important;
+    color: rgb(10, 250, 166) !important;
 }
 </style>
 # 🛠️ Our Premium Jewelry Services  

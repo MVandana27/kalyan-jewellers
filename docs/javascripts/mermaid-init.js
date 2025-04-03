@@ -14,7 +14,7 @@ function renderMermaid() {
       useMaxWidth: true
     }
   });
-  
+
   // Re-render Mermaid diagrams when switching tabs in MkDocs
   document.querySelectorAll('.md-tabs__link').forEach(tab => {
     tab.addEventListener('click', () => {
@@ -23,7 +23,7 @@ function renderMermaid() {
       }, 100);
     });
   });
-  
+
   try {
     // Initial rendering of Mermaid diagrams
     mermaid.init(undefined, '.mermaid');

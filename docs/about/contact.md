@@ -18,7 +18,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color:rgb(5, 6, 6) !important;
+    color:rgb(221, 2, 250) !important;
 }
 </style>
 # Contact Us
