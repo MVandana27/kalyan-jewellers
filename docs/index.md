@@ -69,7 +69,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: black !important;
+    color: yellow !important;
 }
 </style>
 

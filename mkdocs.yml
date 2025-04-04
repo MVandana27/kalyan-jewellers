@@ -74,6 +74,7 @@ markdown_extensions:
 
 plugins:
   - search
+
   - blog
   - macros:
       module_name: docs/main
