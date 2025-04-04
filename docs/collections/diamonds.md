@@ -44,72 +44,85 @@ Diamonds symbolize eternal love, brilliance, and unmatched luxury. At **Kalyan J
 
 
 
+<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto;">
+  <h1 style="color: #333; text-align: center; margin-bottom: 30px;">Diamond Collections</h1>
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#4caf50',
-  'primaryBorderColor': '#388e3c',
-  'lineColor': '#388e3c',
-  'fontSize': '16px',
-  'fontFamily': 'Arial, sans-serif',
-  'edgeLabelBackground':'#f1f1f1'
-}}}%%
-flowchart TD
-  classDef diamond fill:#f1f8e9,stroke:#388e3c,stroke-width:2px, border-radius: 12px
-  classDef premium fill:#e8f5e9,stroke:#81c784,stroke-width:2px, border-radius: 12px
-  classDef certified fill:#e3f2fd,stroke:#42a5f5,stroke-width:2px, border-radius: 12px
+  <!-- Flowchart Container -->
+  <div style="display: flex; flex-direction: column; gap: 20px; position: relative;">
 
-  Start([Diamond Selection]):::diamond
-  Type{Diamond Type?}:::diamond
-  Certified{Certification Required?}:::diamond
-  Setting[Jewelry Setting Design]:::premium
-  Payment[Payment & Documentation]:::premium
-  Delivery([Delivery & Certification]):::certified
+    <!-- Natural Diamonds Path -->
+    <div style="display: flex; justify-content: center; gap: 30px;">
+      <!-- Diamond Selection -->
+      <div style="background: #f8f9fa; border: 2px solid #d4af37; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #d4af37;">Diamond Selection</h3>
+        <p style="margin: 0; color: #666;">Natural Diamonds</p>
+      </div>
+    </div>
 
-  Start --> Type
-  Type -->|Natural| Certified
-  Type -->|Lab-Grown| Setting
-  Certified -->|GIA/IGI| Setting
-  Certified -->|Non-Certified| Payment
-  Setting --> Payment
-  Payment --> Delivery
+    <!-- Arrow Down -->
+    <div style="text-align: center; margin: -10px 0;">
+      <div style="display: inline-block; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 15px solid #d4af37;"></div>
+    </div>
 
-```
-<style>/* Updated Diamond Flowchart Styling */
-.mermaid {
-    background: rgba(255, 255, 255, 0.1); /* Adjust transparency */
-    border-radius: 8px;
-    padding: 16px;
-    margin: 20px 0;
-    text-align: center;
-    backdrop-filter: blur(5px); /* Adds a subtle blur effect */
-}
+    <!-- Certification Options -->
+    <div style="display: flex; justify-content: center; gap: 30px;">
+      <!-- GIA/IGI Certified -->
+      <div style="background: #f8f9fa; border: 2px solid #d4af37; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #d4af37;">GIA/IGI Certified</h3>
+      </div>
+      
+      <!-- Non-Certified -->
+      <div style="background: #f8f9fa; border: 2px solid #d4af37; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #d4af37;">Non-Certified</h3>
+      </div>
+    </div>
 
-.mermaid .node rect {
-  rx: 12px;
-  ry: 12px;
-  stroke-width: 2px;
-  filter: drop-shadow(0 2px 5px rgba(0, 0, 0, 0.15));
-}
+    <!-- Lab-Grown Diamonds Path -->
+    <div style="display: flex; justify-content: center; margin-top: 40px;">
+      <div style="background: #f0f8ff; border: 2px solid #42a5f5; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #42a5f5;">Jewelry Setting Design</h3>
+        <p style="margin: 0; color: #666;">Lab-Grown Diamonds</p>
+      </div>
+    </div>
 
-.mermaid .node.diamond {
-  fill: #f1f8e9;
-  stroke: #388e3c;
-  border-radius: 12px;
-}
+    <!-- Arrow Down -->
+    <div style="text-align: center; margin: -10px 0;">
+      <div style="display: inline-block; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 15px solid #42a5f5;"></div>
+    </div>
 
-.mermaid .node.premium {
-  fill: #e8f5e9;
-  stroke:rgb(129, 173, 199);
-  border-radius: 12px;
-}
+    <!-- Design Options -->
+    <div style="display: flex; justify-content: center;">
+      <div style="background: #f0f8ff; border: 2px solid #42a5f5; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #42a5f5;">Graphical Design</h3>
+      </div>
+    </div>
 
-.mermaid .node.certified {
-  fill: #e3f2fd;
-  stroke: #42a5f5;
-  border-radius: 12px;
-}
-</style>
+    <!-- Process Steps (Connected to both paths) -->
+    <div style="display: flex; justify-content: center; margin-top: 40px;">
+      <div style="background: #e8f5e9; border: 2px solid #81c784; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #81c784;">Payment & Documentation</h3>
+      </div>
+    </div>
+
+    <!-- Arrow Down -->
+    <div style="text-align: center; margin: -10px 0;">
+      <div style="display: inline-block; width: 0; height: 0; border-left: 10px solid transparent; border-right: 10px solid transparent; border-top: 15px solid #81c784;"></div>
+    </div>
+
+    <!-- Final Step -->
+    <div style="display: flex; justify-content: center;">
+      <div style="background: #e8f5e9; border: 2px solid #81c784; border-radius: 10px; padding: 15px; width: 180px; text-align: center;">
+        <h3 style="margin: 0 0 10px; color: #81c784;">Delivery</h3>
+      </div>
+    </div>
+
+    <!-- Connecting Lines -->
+    <div style="position: absolute; top: 120px; left: 50%; height: 40px; width: 2px; background: #d4af37; margin-left: -1px;"></div>
+    <div style="position: absolute; top: 120px; left: 50%; width: 150px; height: 2px; background: #d4af37; margin-left: -75px;"></div>
+    <div style="position: absolute; top: 120px; left: calc(50% - 150px); height: 40px; width: 2px; background: #d4af37;"></div>
+    <div style="position: absolute; top: 120px; left: calc(50% + 150px); height: 40px; width: 2px; background: #d4af37;"></div>
+  </div>
+</div>
 
 <style>
 h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {

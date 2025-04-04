@@ -33,70 +33,52 @@ At Kalyan Jewellers, we blend centuries-old techniques with modern technology to
 - **100-Point Inspection before reaching our customers**
 - **0 Compromise on purity and finishing**
 
-```mermaid
-%%{init: {'theme': 'base', 'themeVariables': {
-  'primaryColor': '#fff9e6',
-  'primaryBorderColor': '#d4af37',
-  'lineColor': '#d4af37'
-}}}%%
-flowchart TD
-  classDef gold fill:#fff9e6,stroke:#d4af37,stroke-width:2px
-  classDef artisan fill:#fff0f0,stroke:#c62828,stroke-width:2px 
-  classDef milestone fill:#fff,stroke:#4caf50,stroke-width:2px,stroke-dasharray:5,rx:50,ry:50,color:#666
-  classDef final fill:#e8f5e9,stroke:#2e7d32,stroke-width:2px
-  classDef blue-theme fill:#e3f2fd,stroke:#1565c0,stroke-width:2px,rx:50,ry:50,color:#000000
+# Kalyan Jewellers Growth Journey
 
-  Start([Craftsmanship\nInitiation]):::gold
-  Design["24K Gold Design\n& CAD Modeling"]:::milestone
-  Handmade["Handmade\nComponents"]:::artisan
-  Machine["Machine\nPrecision Work"]:::artisan
-  Assembly["Assembly &\nFinishing"]:::blue-theme
-  QC[Quality\nControl]:::final
-  Complete[Finished\nJewelry]:::final
+<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; position: relative; height: 600px;">
 
-  Start --> Design
-  Design --> Handmade
-  Design --> Machine
-  Handmade --> Assembly
-  Machine --> Assembly
-  Assembly --> QC
-  QC --> Complete
+  <!-- SVG Arrows -->
+  <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0; z-index: 0;">
+    <!-- Vertical line from 1993 -->
+    <path d="M 400,110 L 400,180" stroke="#d4af37" stroke-width="2" fill="none"/>
+    
+    <!-- Diagonal lines to 1995 and 2010 -->
+    <path d="M 400,180 L 200,250" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 400,180 L 600,250" stroke="#1565c0" stroke-width="2" fill="none"/>
+    
+    <!-- Lines to 2023 -->
+    <path d="M 200,310 L 350,380" stroke="#4caf50" stroke-width="2" fill="none"/>
+    <path d="M 600,310 L 450,380" stroke="#1565c0" stroke-width="2" fill="none"/>
+  </svg>
 
-```
-<style>/* Craftsmanship Flowchart Styling */
-.mermaid {
-    background: rgba(255, 255, 255, 0.1); /* Adjust transparency */
-    border-radius: 8px;
-    padding: 16px;
-    margin: 20px 0;
-    text-align: center;
-    backdrop-filter: blur(5px); /* Adds a subtle blur effect */
-}
+  <!-- 1993 - Founding -->
+  <div style="position: absolute; top: 30px; left: 50%; transform: translateX(-50%); width: 240px; padding: 25px 20px; background: #fff9e6; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #d4af37; text-align: center;">
+    <div style="background: #d4af37; color: white; padding: 6px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-bottom: 12px;">1993</div>
+    <h3 style="margin: 0 0 8px; color: #5c4d3a; font-size: 18px;">Kalyan Jewellers</h3>
+    <p style="margin: 0; color: #777; font-size: 14px; line-height: 1.4;">Founded in Kerala, India</p>
+  </div>
 
-.mermaid .node rect {
-  rx: 6px;
-  ry: 6px;
-  stroke-width: 4px;
-  filter: drop-shadow(0 2px 3px rgba(0,0,0,0.1));
-}
+  <!-- 1995 - First Flagship -->
+  <div style="position: absolute; top: 220px; left: 20%; width: 220px; padding: 20px; background: white; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px dashed #4caf50; text-align: center;">
+    <div style="background: #4caf50; color: white; padding: 6px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-bottom: 12px;">1995</div>
+    <h3 style="margin: 0 0 8px; color: #2e7d32; font-size: 18px;">First Flagship</h3>
+    <p style="margin: 0; color: #666; font-size: 14px;">Thrissur showroom</p>
+  </div>
 
-.mermaid .node.gold {
-  fill: #fff9e6;
-  stroke: #d4af37;
-}
+  <!-- 2010 - International -->
+  <div style="position: absolute; top: 220px; left: 60%; width: 220px; padding: 20px; background: #e3f2fd; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #1565c0; text-align: center;">
+    <div style="background: #1565c0; color: white; padding: 6px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-bottom: 12px;">2010</div>
+    <h3 style="margin: 0 0 8px; color: #0d47a1; font-size: 18px;">International</h3>
+    <p style="margin: 0; color: #666; font-size: 14px;">UAE launch</p>
+  </div>
 
-.mermaid .node.artisan {
-  fill: #fff0f0;
-  stroke: #c62828;
-}
-
-.mermaid .node.final {
-  fill: #e8f5e9;
-  stroke: #2e7d32;
-}
-
-
-</style>
+  <!-- 2023 - Global Presence -->
+  <div style="position: absolute; top: 400px; left: 50%; transform: translateX(-50%); width: 260px; padding: 25px 20px; background: #e8f5e9; border-radius: 20px; box-shadow: 0 4px 8px rgba(0,0,0,0.1); border: 2px solid #2e7d32; text-align: center;">
+    <div style="background: #2e7d32; color: white; padding: 6px 15px; border-radius: 20px; font-size: 14px; font-weight: bold; margin-bottom: 12px;">2023</div>
+    <h3 style="margin: 0 0 8px; color: #1b5e20; font-size: 18px;">Global Presence</h3>
+    <p style="margin: 0; color: #666; font-size: 14px;">300+ showrooms in 21 countries</p>
+  </div>
+</div>
 
 <style>
 h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
