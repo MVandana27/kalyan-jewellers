@@ -1,66 +1,28 @@
 <div class="animated-bg">
   <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-    <defs>
-      <!-- Sky Gradient (peach) -->
-      <linearGradient id="skyGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffddc1"/>
-        <stop offset="100%" stop-color="#ffab73"/>
-      </linearGradient>
+    <!-- White background -->
+    <rect width="100%" height="100%" fill="#ffffff"/>
 
-      <!-- Meadow Gradient (soft peach-pink) -->
-      <linearGradient id="grassGradient" x1="0%" y1="0%" x2="0%" y2="100%">
-        <stop offset="0%" stop-color="#ffdac1"/>
-        <stop offset="100%" stop-color="#ffb997"/>
-      </linearGradient>
+    <!-- Floating Soft Gray Boxes -->
+    <rect x="100" y="100" width="60" height="60" rx="10" fill="#f0f0f0">
+      <animate attributeName="y" values="100;90;100" dur="6s" repeatCount="indefinite"/>
+    </rect>
 
-      <!-- Flower Colors -->
-      <radialGradient id="flower1" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#ffcba4"/>
-        <stop offset="100%" stop-color="#ff9f68"/>
-      </radialGradient>
-      <radialGradient id="flower2" cx="50%" cy="50%" r="50%">
-        <stop offset="0%" stop-color="#ffbe8f"/>
-        <stop offset="100%" stop-color="#ff8c42"/>
-      </radialGradient>
+    <rect x="250" y="200" width="40" height="40" rx="8" fill="#e0e0e0">
+      <animate attributeName="y" values="200;190;200" dur="5s" repeatCount="indefinite"/>
+    </rect>
 
-      <!-- Cloud Filter -->
-      <filter id="cloudFilter" x="-20%" y="-20%" width="140%" height="140%">
-        <feGaussianBlur in="SourceAlpha" stdDeviation="3" result="blur"/>
-        <feColorMatrix in="blur" mode="matrix" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 0.2 0" result="goo"/>
-      </filter>
-    </defs>
+    <rect x="400" y="150" width="50" height="50" rx="10" fill="#f5f5f5">
+      <animate attributeName="y" values="150;140;150" dur="4s" repeatCount="indefinite"/>
+    </rect>
 
-    <!-- Background Sky -->
-    <rect width="100%" height="100%" fill="url(#skyGradient)"/>
+    <rect x="550" y="250" width="70" height="70" rx="12" fill="#eeeeee">
+      <animate attributeName="y" values="250;240;250" dur="7s" repeatCount="indefinite"/>
+    </rect>
 
-    <!-- Rolling Hills -->
-    <path d="M0,300 Q150,250 300,300 T600,300 T900,300 V500 H0 Z" fill="url(#grassGradient)"/>
-
-    <!-- Flowers -->
-    <circle cx="150" cy="320" r="20" fill="url(#flower1)">
-      <animate attributeName="cy" values="320;315;320" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="180" cy="330" r="12" fill="url(#flower2)">
-      <animate attributeName="cy" values="330;325;330" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="250" cy="340" r="16" fill="url(#flower1)">
-      <animate attributeName="cy" values="340;335;340" dur="3s" repeatCount="indefinite"/>
-    </circle>
-
-    <!-- Floating Clouds -->
-    <g filter="url(#cloudFilter)">
-      <circle cx="100" cy="100" r="25" fill="white"/>
-      <circle cx="130" cy="100" r="30" fill="white"/>
-      <circle cx="120" cy="80" r="20" fill="white"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 10,0; 0,0" dur="15s" repeatCount="indefinite"/>
-    </g>
-
-    <g filter="url(#cloudFilter)">
-      <circle cx="400" cy="120" r="20" fill="white"/>
-      <circle cx="430" cy="120" r="25" fill="white"/>
-      <circle cx="420" cy="100" r="15" fill="white"/>
-      <animateTransform attributeName="transform" type="translate" values="0,0; 8,0; 0,0" dur="12s" repeatCount="indefinite"/>
-    </g>
+    <rect x="680" y="180" width="40" height="40" rx="6" fill="#eaeaea">
+      <animate attributeName="y" values="180;170;180" dur="6s" repeatCount="indefinite"/>
+    </rect>
   </svg>
 </div>
 
@@ -71,10 +33,13 @@
   left: 0;
   width: 100%;
   height: 100%;
+  background: white;
   z-index: -1;
   overflow: hidden;
 }
 </style>
+
+
 
 
 
