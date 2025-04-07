@@ -25,14 +25,14 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 180px;
+  top: 155px;
   left: 30px;
   width: 220px;
-  background-color: none ;
+  background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
   box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-  z-index: 1000;
+  z-index: 900;
 }
 .sidebar a {
   display: block;
