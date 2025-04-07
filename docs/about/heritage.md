@@ -21,12 +21,44 @@
 }
 </style>
 
-
+# Heritage 
+ 
+<style>
+.sidebar {
+  position: fixed;
+  top: 200px;
+  left: 30px;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
 </style>
 
-# Heritage
+<div class="sidebar">
+  <a href="#heritage">Heritage</a>
+  <a href="#the-kalyan-story">The Kalyan Story</a>
+  <a href="#kalyan-jewellers-growth-journey">Kalyan Jewellers Growth Journey</a>
+</div>
 
-## The Kalyan Story
+# **Heritage**
+
+## **The Kalyan Story**
 
 Founded in 1985 by Shri Kalyanaraman Iyer, what began as a small jewelry workshop in Chennai has grown into one of India's most trusted jewelry brands. Our journey reflects:
 
@@ -39,9 +71,9 @@ Founded in 1985 by Shri Kalyanaraman Iyer, what began as a small jewelry worksho
 
 
 
-# Kalyan Jewellers Growth Journey
+## **Kalyan Jewellers Growth Journey**
 
-<div style=" max-width: 600px; margin: 0 auto; position: relative; height: 500px;">
+<div style=" max-width: 500px; margin: 0 auto; position: relative; height: 600px;">
 
   <!-- SVG Arrows -->
   <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0; z-index: 0;">
@@ -91,6 +123,7 @@ Founded in 1985 by Shri Kalyanaraman Iyer, what began as a small jewelry worksho
     <p style="margin: 0; color: #666; font-size: 14px;">300+ showrooms in 21 countries</p>
   </div>
 </div>
+
 
 
 <style>

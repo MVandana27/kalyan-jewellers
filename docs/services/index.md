@@ -19,27 +19,70 @@
     color: yellow !important;
 }
 </style>
-# 🛠️ Our Premium Jewelry Services  
+
+# About Services
+
+<style>
+.sidebar {
+  position: fixed;
+  top: 180px;
+  left: 30px;
+  width: 220px;
+  background-color: none ;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#our-premium-jewelry-services">Our Premium Jewelry Services</a>
+  <a href="#custom-jewelry-design">Custom Jewelry Design</a>
+  <a href="#jewelry-repair-restoration">Jewelry Repair  Restoration</a>
+  <a href="#why-choose-our-services">Why Choose Our Services</a>
+</div>
+
+
+# **About Services**
+
+## **Our Premium Jewelry Services**  
 
 At **Kalyan Jewellers**, we offer a range of professional services to ensure your jewelry remains as stunning as ever. Whether you want a **custom-made** piece or need a **repair**, we’ve got you covered.
 
 ---
 
-## 🎨 Custom Jewelry Design  
+##  **Custom Jewelry Design**
+
 Create a one-of-a-kind piece that reflects your personality and style. Work with our expert artisans to design the jewelry of your dreams.  
 
 [Get a Custom Design](custom.md){ .md-button .md-button--primary }
 
 ---
 
-## 🔧 Jewelry Repair & Restoration  
+##  **Jewelry Repair Restoration** 
+
 Have an old or damaged piece? Our skilled craftsmen will restore it to its original beauty with precision and care.  
 
 [Jewelry Repair Services](repair.md){ .md-button .md-button--primary }
 
 ---
 
-## 🏅 Why Choose Our Services?
+##  **Why Choose Our Services**
+
 - **Expert Craftsmanship** – Decades of experience in fine jewelry.  
 - **Quality Assurance** – Premium materials and attention to detail.  
 - **Affordable Pricing** – Luxury that fits your budget.  

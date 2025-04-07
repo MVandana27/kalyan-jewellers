@@ -23,29 +23,66 @@
 # Jewelry Repair & Restoration
 
 
+<style>
+.sidebar {
+  position: fixed;
+  top: 180px;
+  left: 30px;
+  width: 220px;
+  background-color: none ;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
 
-# **Jewellery Repair – Restore the Brilliance**  
+<div class="sidebar">
+  <a href="#jewellery-repair-restore-the-brilliance">Jewellery Repair Restore the Brilliance</a>
+  <a href="#our-repair-services">Our Repair Services</a>
+  <a href="#why-choose-kalyan-jewellers">Why Choose Kalyan Jewellers</a>
+  <a href="#the-kalyan-repair-process">The Kalyan Repair Process</a>
+</div>
+
+# **Jewelry Repair & Restoration**
+
+## **Jewellery Repair Restore the Brilliance**  
 
 At **Kalyan Jewellers**, we understand the sentimental value of your jewellery. Our **expert repair services** ensure that your treasured pieces regain their original beauty and strength, whether it's a family heirloom or a daily wear favourite.  
 
 ## **Our Repair Services**  
-🔧 **Ring Resizing** – Perfect fit adjustments for comfort and elegance.  
-💎 **Stone Replacement** – Restore missing or damaged gemstones and diamonds.  
-🔗 **Chain & Bracelet Repair** – Fix broken clasps, links, and fasteners.  
-✨ **Polishing & Cleaning** – Bring back the original shine and sparkle.  
-🛠 **Antique Jewellery Restoration** – Preserve and restore vintage pieces with expert care.  
 
-## **Why Choose Kalyan Jewellers?**  
-✔ **Skilled Craftsmanship & Precision Repairs**  
-✔ **High-Quality Materials & Expert Techniques**  
-✔ **Quick & Reliable Service with Transparency**  
-✔ **Trusted by Millions for Jewellery Care**  
+- **Ring Resizing** – Perfect fit adjustments for comfort and elegance.  
+- **Stone Replacement** – Restore missing or damaged gemstones and diamonds.  
+- **Chain & Bracelet Repair** – Fix broken clasps, links, and fasteners.  
+- **Polishing & Cleaning** – Bring back the original shine and sparkle.  
+- **Antique Jewellery Restoration** – Preserve and restore vintage pieces with expert care.  
+
+## **Why Choose Kalyan Jewellers**  
+
+- **Skilled Craftsmanship & Precision Repairs**  
+- **High-Quality Materials & Expert Techniques**  
+- **Quick & Reliable Service with Transparency**  
+- **Trusted by Millions for Jewellery Care**  
 
 
 
-## The Kalyan Repair Process
+## **The Kalyan Repair Process**
 
-<div style="font-family: Arial, sans-serif; max-width: 700px; margin: 20px auto; position: relative; height: 750px; background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border-radius: 8px; padding: 20px;">
+<div style="max-width: 700px; margin: 20px auto; position: relative; height: 750px; background: rgba(255,255,255,0.1); backdrop-filter: blur(5px); border-radius: 8px; padding: 20px;">
 
   <!-- SVG Arrows for All Connections -->
   <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0; z-index: 0;">

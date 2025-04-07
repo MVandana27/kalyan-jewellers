@@ -20,9 +20,46 @@
 }
 </style>
 
+# Craftmanship
+
+<style>
+.sidebar {
+  position: fixed;
+  top: 200px;
+  left: 30px;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#our-craftsmanship-philosophy">Our Craftsmanship Philosophy</a>
+  <a href="#kalyan-jewellers-growth-journey">Kalyan Jewellers Growth Journey</a>
+  
+</div>
+
+# **Craftmanship**
 
 
-## Our Craftsmanship Philosophy
+## **Our Craftsmanship Philosophy**
+
 
 At Kalyan Jewellers, we blend centuries-old techniques with modern technology to create jewelry that stands the test of time:
 
@@ -31,7 +68,11 @@ At Kalyan Jewellers, we blend centuries-old techniques with modern technology to
 - **100-Point Inspection before reaching our customers**
 - **0 Compromise on purity and finishing**
 
-# Kalyan Jewellers Growth Journey
+
+
+## **Kalyan Jewellers Growth Journey**
+
+
 
 <div style=" max-width: 800px; margin: 0 auto; position: relative; height: 600px;">
 

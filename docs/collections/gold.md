@@ -22,13 +22,49 @@
 
 # Kalyan Gold Collections
 
+<style>
+.sidebar {
+  position: fixed;
+  top: 180px;
+  left: 30px;
+  width: 220px;
+  background-color: none ;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#gold-jewellery-a-timeless-treasure">Gold Jewellerys A Timeless Treasure</a>
+  <a href="#our-gold-jewellery-collection">Our Gold Jewellery Collection</a>
+  <a href="#why-choose-kalyan-jewellers">Why Choose Kalyan Jewellers</a>
+  <a href="#visit-us-explore-the-beauty-of-gold">Visit Us Explore the Beauty of Gold</a>
+</div>
+
+# **Kalyan Gold Collections**
 
 
-# **Gold Jewellery – A Timeless Treasure**  
+## **Gold Jewellery A Timeless Treasure**  
 
 Gold has been a symbol of purity, prosperity, and elegance for centuries. At **Kalyan Jewellers**, we offer an exquisite collection of **BIS-hallmarked gold jewelry**, designed for every occasion and celebration.  
 
 ## **Our Gold Jewellery Collection**  
+
 - **Traditional Gold Jewellery** – Heritage-inspired designs with intricate craftsmanship.  
 - **Modern Gold Jewellery** – Contemporary pieces for daily elegance.  
 - **Bridal Gold Collection** – Regal sets perfect for your big day.  
@@ -36,12 +72,14 @@ Gold has been a symbol of purity, prosperity, and elegance for centuries. At **K
 - **Gold Rings, Bangles & Chains** – Elegance in every detail.  
 
 ## **Why Choose Kalyan Jewellers?**  
+
 - **BIS-Hallmarked Gold for Guaranteed Purity**  
 - **Expert Craftsmanship & Exclusive Designs**  
 - **Gold Exchange & Buyback Options Available**  
 - **Transparency & Trust in Every Purchase**  
 
-## **Visit Us & Explore the Beauty of Gold**  
+## **Visit Us Explore the Beauty of Gold**  
+
 Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you** or browse online for the perfect piece.  
 
 

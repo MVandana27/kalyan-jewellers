@@ -19,23 +19,63 @@
     color: yellow !important;
 }
 </style>
-# About Kalyan Jewellers  
+
+# About Kalyan Jewellers
+
+<style>
+.sidebar {
+  position: fixed;
+  top: 200px;
+  left: 30px;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#about-kalyan-jewellers">About Kalyan Jewellers</a>
+  <a href="#our-journey-from-tradition-to-innovation">Our Journey From Tradition to Innovation</a>
+  <a href="#what-makes-us-unique">What Makes Us Unique</a>
+  <a href="#our-signature-collections">Our Signature Collections</a>
+  <a href="#expanding-horizons">Expanding Horizons</a>
+  <a href="#our-promise-to-you">Our Promise to You</a>
+</div>
 
 
-## 🌟 Our Journey: From Tradition to Innovation  
+
+# **About Kalyan Jewellers**
+
+## **Our Journey From Tradition to Innovation**
 
 For over three decades, **Kalyan Jewellers** has been a symbol of **trust, craftsmanship, and excellence** in the world of fine jewellery. Established in **1993** by **T.S. Kalyanaraman**, our brand was built on a simple yet powerful belief—**jewellery is more than just gold and diamonds; it’s a part of our culture, our emotions, and our legacy.**  
 
 From a **single store in Thrissur, Kerala**, to **over 150 showrooms worldwide**, we have grown into a name that resonates with millions of customers across India and the Middle East.  
 
-## 💎 What Makes Us Unique?  
+## **What Makes Us Unique**
 
- - **Heritage Meets Modern Design** – We bring you timeless traditional jewellery infused with contemporary elegance.  
- - **Certified Purity & Transparency** – Our gold is **100% BIS-hallmarked**, and our diamonds are - **certified for authenticity**.  
- - **Customer-Centric Approach** – We believe in **fair pricing, transparency, and ethical business practices**.  
- - **Diverse & Exclusive Collections** – From bridal wear to everyday jewellery, we have designs that suit every occasion.  
+- **Heritage Meets Modern Design** – We bring you timeless traditional jewellery infused with contemporary elegance.  
+- **Certified Purity & Transparency** – Our gold is **100% BIS-hallmarked**, and our diamonds are - **certified for authenticity**.  
+- **Customer-Centric Approach** – We believe in **fair pricing, transparency, and ethical business practices**.  
+- **Diverse & Exclusive Collections** – From bridal wear to everyday jewellery, we have designs that suit every occasion.  
 
-## 🎨 Our Signature Collections  
+## **Our Signature Collections**
 
 - **Muhurat** – Bridal jewellery crafted for life’s most precious moments.  
 - **Nimah** – Temple-inspired jewellery, reflecting our rich heritage.  
@@ -43,11 +83,11 @@ From a **single store in Thrissur, Kerala**, to **over 150 showrooms worldwide**
 - **Anokhi** – Exquisite uncut diamond jewellery, perfect for a regal look.  
 - **Glo** – Contemporary diamond collections for the modern woman.  
 
-## 🌍 Expanding Horizons  
+## **Expanding Horizons**
 
 With a presence in **India, UAE, Qatar, Oman, Saudi Arabia, Bahrain, and Kuwait**, Kalyan Jewellers is making its mark in the global jewellery industry. Our commitment to **quality, design, and customer satisfaction** has made us a trusted brand worldwide.  
 
-## 🤝 Our Promise to You  
+## **Our Promise to You** 
 
 At Kalyan Jewellers, we don't just sell jewellery; we build relationships that last a lifetime. Every piece we create is designed to tell a story, mark a milestone, and be cherished for generations.  
 

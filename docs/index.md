@@ -25,7 +25,7 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 150px;
+  top: 220px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
@@ -53,8 +53,7 @@
   <a href="#discover-timeless-beauty">Discover Timeless Beauty</a>
   <a href="#our-commitment-to-you">Our Commitment to You</a>
   <a href="#exclusive-services-we-offer">Exclusive Services</a>
-  <a href="#visit-us--experience-luxury">Visit Us</a>
-  
+  <a href="#visit-us">Visit Us</a>
 </div>
 
 
@@ -92,7 +91,7 @@ At **Kalyan Jewellers**, every piece is crafted with precision and passion, blen
 - **Bridal & Wedding Collection** – Curated selections for your special day.  
 
 
-## **Visit Us & Experience Luxury**  
+## **Visit Us**  
 
 Explore our stunning collection online or visit our nearest showroom for a personalized experience. Let **Kalyan Jewellers** help you find the perfect piece that defines your elegance and style.  
 

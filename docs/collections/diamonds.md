@@ -23,19 +23,59 @@
 
 # Kalyan Diamond Collections
 
+<style>
+.sidebar {
+  position: fixed;
+  top: 180px;
+  left: 30px;
+  width: 220px;
+  background-color: none ;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
 
-# **Diamond Jewellery – The Sparkle of Elegance**  
+<div class="sidebar">
+  
+  <a href="#diamond-jewellery-the-sparkle-of-elegance">Diamond Jewellery The Sparkle of Elegance</a>
+  <a href="#our-diamond-collection">Our Diamond Collection</a>
+  <a href="#why-choose-kalyan-jewellers">Why Choose Kalyan Jewellers</a>
+  
+</div>
+
+# **Kalyan Diamond Collections**
+
+
+## **Diamond Jewellery The Sparkle of Elegance**  
 
 Diamonds symbolize eternal love, brilliance, and unmatched luxury. At **Kalyan Jewellers**, we bring you a stunning collection of **certified diamond jewelry**, crafted to perfection for every occasion.  
 
 ## **Our Diamond Collection**  
+
 - **Engagement & Wedding Rings** – Timeless solitaires and elegant halo designs.  
 - **Diamond Necklaces & Pendants** – A blend of modern and classic styles.  
 - **Earrings & Studs** – Perfectly cut diamonds for everyday and special moments.  
 - **Diamond Bangles & Bracelets** – Statement pieces with breathtaking brilliance.  
 - **Bridal Diamond Collection** – Exquisite sets to complete your wedding look.  
 
-## **Why Choose Kalyan Jewellers?**  
+## **Why Choose Kalyan Jewellers**  
+
+
 - **Certified Diamonds for Unmatched Quality**  
 - **Expertly Crafted with Precision & Elegance**  
 - **Ethically Sourced & Responsibly Manufactured**  
@@ -44,7 +84,7 @@ Diamonds symbolize eternal love, brilliance, and unmatched luxury. At **Kalyan J
 
 
 
-<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto;">
+<div style="max-width: 800px; margin: 0 auto;">
   <h1 style="color: #333; text-align: center; margin-bottom: 30px;">Diamond Collections</h1>
 
   <!-- Flowchart Container -->

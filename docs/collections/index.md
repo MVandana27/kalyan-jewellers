@@ -19,39 +19,80 @@
     color: yellow !important;
 }
 </style>
-# ✨ Our Exclusive Jewelry Collections  
+
+<style>
+.sidebar {
+  position: fixed;
+  top: 200px;
+  left: 30px;
+  width: 220px;
+  background-color: none ;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#our-exclusive-jewelry-collections">Our Exclusive Jewelry Collections</a>
+  <a href="#gold-jewelry">Gold Jewelry</a>
+  <a href="#diamond-collections">Diamond Collections</a>
+  <a href="#bridal-jewelry">Bridal Jewelry</a>
+  <a href="#why-choose-us">Why Choose Us</a>
+</div>
+
+## **Our Exclusive Jewelry Collections**
 
 Welcome to our **Collections** section, where tradition meets elegance. Browse through our exquisite range of jewelry, crafted with precision and passion.
 
 ---
 
-## 💛 Gold Jewelry  
+## **Gold Jewelry**  
+
 Discover our timeless **gold jewelry collection**, blending heritage with modern craftsmanship.  
 
 [Explore Gold Jewelry](gold.md){ .md-button .md-button--primary }
 
 ---
 
-## 💎 Diamond Collections  
+## **Diamond Collections**
+
 Brilliance redefined—our **diamond collection** features handcrafted designs that sparkle with perfection.  
 
 [View Diamond Jewelry](diamonds.md){ .md-button .md-button--primary }
 
 ---
 
-## 👰 Bridal Jewelry  
+## **Bridal Jewelry**
+
+
 Make your special day even more memorable with our **exclusive bridal collection**. Designed to bring out the best in every bride.  
 
 [Browse Bridal Collection](bridal.md){ .md-button .md-button--primary }
 
 ---
 
-### ✨ Why Choose Us?
+### **Why Choose Us**
+
 - **Authentic & Certified Jewelry**  
 - **Customizable Designs**  
 - **Luxury with Affordability**  
 
-💬 Need help? [Contact Us](/about/contact/){ .md-button }
+💬 Need help?      [Contact Us](/about/contact/){ .md-button }
 
 ---
 
