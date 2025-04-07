@@ -6,7 +6,7 @@
 [data-md-color-scheme="default"] h4, 
 [data-md-color-scheme="default"] h5, 
 [data-md-color-scheme="default"] h6 {
-    color: rgb(184, 55, 204) !important;
+    color: purple !important;
 }
 
 /* Dark Theme */
@@ -16,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: rgb(252, 10, 151) !important;
+    color: yellow !important;
 }
 </style>
 # ✨ Our Exclusive Jewelry Collections  
@@ -47,9 +47,9 @@ Make your special day even more memorable with our **exclusive bridal collection
 ---
 
 ### ✨ Why Choose Us?
-✅ **Authentic & Certified Jewelry**  
-✅ **Customizable Designs**  
-✅ **Luxury with Affordability**  
+- **Authentic & Certified Jewelry**  
+- **Customizable Designs**  
+- **Luxury with Affordability**  
 
 💬 Need help? [Contact Us](/about/contact/){ .md-button }
 
@@ -70,9 +70,20 @@ Make your special day even more memorable with our **exclusive bridal collection
 }
 </style>
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>

@@ -1,48 +1,3 @@
-<div class="animated-bg">
-  <svg viewBox="0 0 800 500" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice">
-    <!-- White background -->
-    <rect width="100%" height="100%" fill="#ffffff"/>
-
-    <!-- Floating Soft Gray Boxes -->
-    <rect x="100" y="100" width="60" height="60" rx="10" fill="#f0f0f0">
-      <animate attributeName="y" values="100;90;100" dur="6s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="250" y="200" width="40" height="40" rx="8" fill="#e0e0e0">
-      <animate attributeName="y" values="200;190;200" dur="5s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="400" y="150" width="50" height="50" rx="10" fill="#f5f5f5">
-      <animate attributeName="y" values="150;140;150" dur="4s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="550" y="250" width="70" height="70" rx="12" fill="#eeeeee">
-      <animate attributeName="y" values="250;240;250" dur="7s" repeatCount="indefinite"/>
-    </rect>
-
-    <rect x="680" y="180" width="40" height="40" rx="6" fill="#eaeaea">
-      <animate attributeName="y" values="180;170;180" dur="6s" repeatCount="indefinite"/>
-    </rect>
-  </svg>
-</div>
-
-<style>
-.animated-bg {
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: white;
-  z-index: -1;
-  overflow: hidden;
-}
-</style>
-
-
-
-
-
 
 <style>
 /* Light Theme */
@@ -66,9 +21,49 @@
 }
 </style>
 
+
+<style>
+.sidebar {
+  position: fixed;
+  top: 150px;
+  left: 30px;
+  width: 220px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+.sidebar a {
+  display: block;
+  margin: 10px 0;
+  color: #333;
+  text-decoration: none;
+  font-weight: 500;
+}
+.sidebar a:hover {
+  color: var(--md-accent-fg-color);
+}
+.content {
+  margin-left: 250px;
+}
+</style>
+
+<div class="sidebar">
+  <a href="#discover-timeless-beauty">Discover Timeless Beauty</a>
+  <a href="#our-commitment-to-you">Our Commitment to You</a>
+  <a href="#exclusive-services-we-offer">Exclusive Services</a>
+  <a href="#visit-us--experience-luxury">Visit Us</a>
+  
+</div>
+
+
+
+
 <div style="text-align: center;">
     <img src="assets/images/kalyan_logo.png" class="logo" style="pointer-events: none;">
 </div>
+
 Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
 
 
@@ -83,18 +78,18 @@ At **Kalyan Jewellers**, every piece is crafted with precision and passion, blen
 
 ## **Our Commitment to You**  
 
-✨ **Uncompromised Purity** – BIS-hallmarked gold and certified diamonds ensure the highest quality.  
-✨ **Ethical Sourcing** – We uphold transparency in every piece we create.  
-✨ **Exquisite Craftsmanship** – Jewelry handcrafted by skilled artisans with attention to detail.  
+- **Uncompromised Purity** – BIS-hallmarked gold and certified diamonds ensure the highest quality.  
+- **Ethical Sourcing** – We uphold transparency in every piece we create.  
+- **Exquisite Craftsmanship** – Jewelry handcrafted by skilled artisans with attention to detail.  
 
 
 
 ## **Exclusive Services We Offer**  
 
-💎 **Custom Jewelry Design** – Bring your vision to life with a personalized touch.  
-🔧 **Jewelry Repair & Restoration** – Restore the beauty of your cherished pieces.  
-💰 **Gold Exchange & Buyback** – Trusted, hassle-free transactions.  
-👰 **Bridal & Wedding Collection** – Curated selections for your special day.  
+- **Custom Jewelry Design** – Bring your vision to life with a personalized touch.  
+- **Jewelry Repair & Restoration** – Restore the beauty of your cherished pieces.  
+- **Gold Exchange & Buyback** – Trusted, hassle-free transactions.  
+- **Bridal & Wedding Collection** – Curated selections for your special day.  
 
 
 ## **Visit Us & Experience Luxury**  
@@ -105,25 +100,34 @@ Explore our stunning collection online or visit our nearest showroom for a perso
 
 
 
-
 <div class="hero" markdown>
 
-# Timeless Elegance, Crafted with Passion
 
-Discover our exquisite collection of handcrafted jewelry that celebrates your special moments
 
 [View Collections](/collections/gold){: .md-button .md-button--primary }
-[Book Consultation](/about/contact){: .md-button }
+[Book Consultation](/about/contact){: .md-button  }
 
 </div>
 
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>
+
 
 
 

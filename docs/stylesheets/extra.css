@@ -1,51 +1,30 @@
-.md-header__button.md-logo,
-.md-header__title {
-    visibility: hidden;
-}
-
 .md-top {
     display: none !important;
 }
 
-
-
-body {
-    background-image: url("../assets/backgrounds/pexels-photo-459037.webp");
-    background-size: cover;
-    background-position: top left;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    width: 100%;
-    height: 100%;
-    margin: 0;
-    padding: 0;
-
-}
-
-
-
-/* Apply black background to entire page in dark mode */
-[data-md-color-scheme="slate"] {
-    background-color: black !important;
-}
-
-/* Ensure content areas are also black */
-[data-md-color-scheme="slate"] .md-content,
-[data-md-color-scheme="slate"] .md-main,
-[data-md-color-scheme="slate"] .md-sidebar {
-    background-color: black !important;
-    color: white !important;
-    /* Ensure text is readable */
-}
-
-/* Style links and text */
-
-
-[data-md-color-scheme="slate"] .md-nav__link {
-    color: white !important;
-}
-
-
-.language-mermaid {
+/* Hide site name text in the header */
+.md-header__title .md-header__ellipsis {
     display: none !important;
+}
+
+/* Hide site title only on homepage */
+.md-typeset h1:first-of-type {
+    display: none;
+}
+
+
+
+/* Make bold text larger */
+strong,
+b {
+    font-weight: bold;
+    font-size: 1.09em;
+    /* Increase as needed */
+}
+
+/* Make normal paragraph text smaller */
+.md-typeset p {
+    font-size: 0.80rem;
+    /* Adjust to taste (default is 1rem) */
+    line-height: 1.6;
 }

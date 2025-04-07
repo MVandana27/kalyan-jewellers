@@ -1,4 +1,3 @@
-
 <style>
 /* Light Theme */
 [data-md-color-scheme="default"] h1, 
@@ -7,7 +6,7 @@
 [data-md-color-scheme="default"] h4, 
 [data-md-color-scheme="default"] h5, 
 [data-md-color-scheme="default"] h6 {
-    color:rgb(26, 89, 239)!important;
+    color: purple !important;
 }
 
 /* Dark Theme */
@@ -17,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color:rgb(7, 163, 206) !important;
+    color: yellow !important;
 }
 </style>
 
@@ -30,17 +29,17 @@
 Gold has been a symbol of purity, prosperity, and elegance for centuries. At **Kalyan Jewellers**, we offer an exquisite collection of **BIS-hallmarked gold jewelry**, designed for every occasion and celebration.  
 
 ## **Our Gold Jewellery Collection**  
-✨ **Traditional Gold Jewellery** – Heritage-inspired designs with intricate craftsmanship.  
-💫 **Modern Gold Jewellery** – Contemporary pieces for daily elegance.  
-👑 **Bridal Gold Collection** – Regal sets perfect for your big day.  
-🛕 **Temple Jewellery** – Divine motifs and classic artistry.  
-💍 **Gold Rings, Bangles & Chains** – Elegance in every detail.  
+- **Traditional Gold Jewellery** – Heritage-inspired designs with intricate craftsmanship.  
+- **Modern Gold Jewellery** – Contemporary pieces for daily elegance.  
+- **Bridal Gold Collection** – Regal sets perfect for your big day.  
+- **Temple Jewellery** – Divine motifs and classic artistry.  
+- **Gold Rings, Bangles & Chains** – Elegance in every detail.  
 
 ## **Why Choose Kalyan Jewellers?**  
-✔ **BIS-Hallmarked Gold for Guaranteed Purity**  
-✔ **Expert Craftsmanship & Exclusive Designs**  
-✔ **Gold Exchange & Buyback Options Available**  
-✔ **Transparency & Trust in Every Purchase**  
+- **BIS-Hallmarked Gold for Guaranteed Purity**  
+- **Expert Craftsmanship & Exclusive Designs**  
+- **Gold Exchange & Buyback Options Available**  
+- **Transparency & Trust in Every Purchase**  
 
 ## **Visit Us & Explore the Beauty of Gold**  
 Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you** or browse online for the perfect piece.  
@@ -50,10 +49,22 @@ Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you**
 [<span class="twemoji">📞</span> Contact Our Team](/about/contact/){ .md-button .md-button--primary }
 
 
+
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>

@@ -4,8 +4,8 @@ site_author: "Manyam vandana"
 theme:
   name: material
   custom_dir: docs/overrides
-  icon:
-    repo: fontawesome/brands/git-alt
+  logo: assets/images/kalyan_logo.png
+  favicon: assets/images/KALYANkj.png
 
   features:
     - search.share
@@ -13,9 +13,10 @@ theme:
     - navigation.sections
     - navigation.top
     - toc.integrate
+    - navigation.expand
     - search.highlight
-    - header.autohide
     - navigation.instant
+    - navigation.indexes
 
   font:
     text: Merriweather Sans
@@ -36,9 +37,6 @@ theme:
       toggle:
         icon: material/weather-night
         name: Switch to light mode
-
-  logo: assets/images/kalyan_logo.png
-  favicon: assets/images/KALYANkj.png
 
 extra_css:
   - assets/stylesheets/extra.css
@@ -71,6 +69,9 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+  - toc:
+      permalink: false
 
 plugins:
   - search

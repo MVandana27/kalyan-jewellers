@@ -1,5 +1,3 @@
-
-
 <style>
 /* Light Theme */
 [data-md-color-scheme="default"] h1, 
@@ -18,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: rgb(245, 45, 5) !important;
+    color: yellow !important;
 }
 </style>
 
@@ -35,7 +33,7 @@ At Kalyan Jewellers, we blend centuries-old techniques with modern technology to
 
 # Kalyan Jewellers Growth Journey
 
-<div style="font-family: Arial, sans-serif; max-width: 800px; margin: 0 auto; position: relative; height: 600px;">
+<div style=" max-width: 800px; margin: 0 auto; position: relative; height: 600px;">
 
   <!-- SVG Arrows -->
   <svg width="100%" height="100%" style="position: absolute; top: 0; left: 0; z-index: 0;">
@@ -81,9 +79,20 @@ At Kalyan Jewellers, we blend centuries-old techniques with modern technology to
 </div>
 
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>

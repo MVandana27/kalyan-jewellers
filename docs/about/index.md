@@ -6,7 +6,7 @@
 [data-md-color-scheme="default"] h4, 
 [data-md-color-scheme="default"] h5, 
 [data-md-color-scheme="default"] h6 {
-    color: rgb(152, 2, 89) !important;
+    color: purple !important;
 }
 
 /* Dark Theme */
@@ -16,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color: orange !important;
+    color: yellow !important;
 }
 </style>
 # About Kalyan Jewellers  
@@ -30,10 +30,10 @@ From a **single store in Thrissur, Kerala**, to **over 150 showrooms worldwide**
 
 ## 💎 What Makes Us Unique?  
 
-✅ **Heritage Meets Modern Design** – We bring you timeless traditional jewellery infused with contemporary elegance.  
-✅ **Certified Purity & Transparency** – Our gold is **100% BIS-hallmarked**, and our diamonds are **certified for authenticity**.  
-✅ **Customer-Centric Approach** – We believe in **fair pricing, transparency, and ethical business practices**.  
-✅ **Diverse & Exclusive Collections** – From bridal wear to everyday jewellery, we have designs that suit every occasion.  
+ - **Heritage Meets Modern Design** – We bring you timeless traditional jewellery infused with contemporary elegance.  
+ - **Certified Purity & Transparency** – Our gold is **100% BIS-hallmarked**, and our diamonds are - **certified for authenticity**.  
+ - **Customer-Centric Approach** – We believe in **fair pricing, transparency, and ethical business practices**.  
+ - **Diverse & Exclusive Collections** – From bridal wear to everyday jewellery, we have designs that suit every occasion.  
 
 ## 🎨 Our Signature Collections  
 
@@ -53,9 +53,20 @@ At Kalyan Jewellers, we don't just sell jewellery; we build relationships that l
 
 
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>

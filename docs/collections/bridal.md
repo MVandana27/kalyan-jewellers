@@ -1,4 +1,3 @@
-
 <style>
 /* Light Theme */
 [data-md-color-scheme="default"] h1, 
@@ -7,7 +6,7 @@
 [data-md-color-scheme="default"] h4, 
 [data-md-color-scheme="default"] h5, 
 [data-md-color-scheme="default"] h6 {
-    color:rgb(46, 114, 231)!important;
+    color: purple !important;
 }
 
 /* Dark Theme */
@@ -17,7 +16,7 @@
 [data-md-color-scheme="slate"] h4, 
 [data-md-color-scheme="slate"] h5, 
 [data-md-color-scheme="slate"] h6 {
-    color:rgb(165, 5, 218) !important;
+    color: yellow !important;
 }
 </style>
 
@@ -32,16 +31,16 @@ Your wedding day is a celebration of love, tradition, and new beginnings. At **K
 Our bridal collection is designed to complement every bride’s unique style, from **traditional temple jewelry to contemporary diamond sets**. Each piece reflects a perfect blend of heritage and modern elegance, ensuring you shine on your big day.  
 
 ## **Bridal Collections We Offer**  
-👑 **Heritage Bridal Sets** – Inspired by regal traditions, featuring intricate craftsmanship.  
-💎 **Diamond Bridal Collection** – A dazzling range of solitaire, halo, and layered diamond necklaces.  
-🌿 **Temple & Antique Jewelry** – Traditional South Indian designs with divine motifs.  
-✨ **Customized Bridal Jewelry** – Personalized designs to match your dream wedding look.  
+- **Heritage Bridal Sets** – Inspired by regal traditions, featuring intricate craftsmanship.  
+- **Diamond Bridal Collection** – A dazzling range of solitaire, halo, and layered diamond necklaces.  
+- **Temple & Antique Jewelry** – Traditional South Indian designs with divine motifs.  
+- **Customized Bridal Jewelry** – Personalized designs to match your dream wedding look.  
 
 ## **Why Choose Kalyan Jewellers?**  
-✔ **BIS-hallmarked Gold & Certified Diamonds**  
-✔ **Exquisite Craftsmanship by Master Artisans**  
-✔ **Customization Options for a Unique Look**  
-✔ **Purity, Trust, and Transparency in Every Piece**  
+- **BIS-hallmarked Gold & Certified Diamonds**  
+- **Exquisite Craftsmanship by Master Artisans**  
+- **Customization Options for a Unique Look**  
+- **Purity, Trust, and Transparency in Every Piece**  
 
 ## **Visit Us & Find Your Perfect Bridal Set**  
 Let us be a part of your wedding journey. Explore our **stunning bridal collections** online or visit our nearest showroom for a personalized shopping experience.  
@@ -51,9 +50,20 @@ Let us be a part of your wedding journey. Explore our **stunning bridal collecti
 
 
 <style>
-h1:hover, h2:hover, h3:hover h4:hover, h5:hover, h6:hover {
-    opacity: 0.7; /* Dims the text when hovered */
-    transition: opacity 0.3s ease-in-out;
-    cursor: pointer;
+/* Slide and highlight heading on hover */
+h1:hover,
+h2:hover,
+h3:hover,
+h4:hover,
+h5:hover,
+h6:hover {
+  transform: translateX(4px); /* Slide effect */
+  color: var(--md-accent-fg-color); /* Uses your theme's accent */
+  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
+  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  padding-inline: 4px;
+  border-radius: 4px;
 }
 </style>
