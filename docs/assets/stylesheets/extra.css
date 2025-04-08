@@ -70,58 +70,78 @@
     filter: brightness(80%);
 }
 
-/* Dropdown Styling */
+/* Dropdown container */
 .dropdown {
     position: relative;
 }
 
+/* Dropdown menu styling */
 .dropdown-menu {
     display: none;
     position: absolute;
     top: 100%;
     left: 0;
-    padding: 10px;
+    padding: 8px 0;
     list-style: none;
     min-width: 200px;
     background: rgba(255, 255, 255, 0.2);
     /* semi-transparent */
-    backdrop-filter: blur(5px);
-
-    /* Adds a subtle blur effect */
+    backdrop-filter: blur(6px);
     border-radius: 8px;
-    /* Optional: Rounds the corners */
-    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
+/* Individual dropdown items */
 .dropdown-menu li {
-    padding: 8px 10px;
+    margin: 0;
 }
 
+/* Base link style */
 .dropdown-menu li a {
-    color: black !important;
-    text-decoration: none;
     display: block;
-    font-size: small;
+    padding: 10px 16px;
+    font-size: 14px;
+    color: #333 !important;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: all 0.3s ease;
 }
 
+/* Hover effect */
 .dropdown-menu li a:hover {
-    background-color: rgb(213, 222, 232);
+    background-color: #ffffff;
+    /* white background on hover */
+    color: rgb(8, 8, 8) !important;
+    /* dark text */
+    font-weight: 600;
+    transform: scale(1.02);
+    /* subtle zoom/pop */
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    /* soft shadow */
 }
 
+/* Active/selected menu item */
+.dropdown-menu li a.active {
+    background-color: #436d96;
+    /* dark blue-gray background */
+    color: #fff !important;
+    /* white text */
+    font-weight: bold;
+    border-radius: 4px;
+}
+
+/* Show dropdown on hover */
 .dropdown:hover .dropdown-menu {
     display: block;
     animation: fadeIn 0.3s ease-in-out;
-}
-
-.md-nav__dropdown a:hover {
-    background-color: rgba(104, 68, 245, 0.2);
-    /* Light hover effect */
 }
 
 .md-nav__dropdown a {
     color: rgb(249, 249, 249) !important;
     /* Ensures text is visible */
 }
+
 
 /* Align Content to the Right */
 .md-content {

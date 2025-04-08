@@ -28,3 +28,39 @@ b {
     /* Adjust to taste (default is 1rem) */
     line-height: 1.6;
 }
+
+
+/* Base oval button style */
+.custom-button {
+    display: inline-block;
+    padding: 6px 18px;
+    font-size: 14px;
+    font-weight: 600;
+    color: white !important;
+    text-decoration: none;
+    border: none;
+    border-radius: 999px;
+    background-color: #00aaff;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Primary button (blue) */
+.custom-button.primary {
+    background-color: #00aaff;
+}
+
+/* Secondary or normal (gray-blue) */
+.custom-button:not(.primary) {
+    background-color: #dc8605;
+}
+
+/* Hover effect */
+.custom-button:hover {
+    transform: scale(1.03);
+    background-color: #c530d3;
+}
+
+/* Optional: Space between buttons */
+.hero .custom-button {
+    margin-right: 10px;
+}

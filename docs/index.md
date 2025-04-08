@@ -25,13 +25,13 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 190px;
+  top: 60px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
   z-index: 900;
 }
 .sidebar a {
@@ -101,12 +101,11 @@ Explore our stunning collection online or visit our nearest showroom for a perso
 
 <div class="hero" markdown>
 
-
-
-[View Collections](/collections/gold){: .md-button .md-button--primary }
-[Book Consultation](/about/contact){: .md-button  }
+[View Collections](/collections/gold){: .custom-button .primary }
+[Book Consultation](/about/contact){: .custom-button }
 
 </div>
+
 
 <style>
 /* Slide and highlight heading on hover */

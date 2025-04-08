@@ -25,13 +25,13 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 155px;
+  top: 50px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+
   z-index: 900;
 }
 .sidebar a {
@@ -88,7 +88,7 @@ Our bridal collection is designed to complement every bride’s unique style, fr
 Let us be a part of your wedding journey. Explore our **stunning bridal collections** online or visit our nearest showroom for a personalized shopping experience.  
 
 
-[<span class="twemoji">📞</span> Contact Our Team](/about/contact/){ .md-button .md-button--primary }
+
 
 
 <style>

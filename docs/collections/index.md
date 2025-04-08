@@ -23,13 +23,12 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 200px;
+  top: 50px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
   z-index: 900;
 }
 .sidebar a {
@@ -65,7 +64,8 @@ Welcome to our **Collections** section, where tradition meets elegance. Browse t
 
 Discover our timeless **gold jewelry collection**, blending heritage with modern craftsmanship.  
 
-[Explore Gold Jewelry](gold.md){ .md-button .md-button--primary }
+[Explore Gold Jewelry](gold.md){: .custom-button .primary }
+
 
 ---
 
@@ -73,7 +73,7 @@ Discover our timeless **gold jewelry collection**, blending heritage with modern
 
 Brilliance redefined—our **diamond collection** features handcrafted designs that sparkle with perfection.  
 
-[View Diamond Jewelry](diamonds.md){ .md-button .md-button--primary }
+[View Diamond Jewelry](diamonds.md){: .custom-button .primary }
 
 ---
 
@@ -82,7 +82,7 @@ Brilliance redefined—our **diamond collection** features handcrafted designs t
 
 Make your special day even more memorable with our **exclusive bridal collection**. Designed to bring out the best in every bride.  
 
-[Browse Bridal Collection](bridal.md){ .md-button .md-button--primary }
+[Browse Bridal Collection](bridal.md){: .custom-button .primary }
 
 ---
 
@@ -92,7 +92,7 @@ Make your special day even more memorable with our **exclusive bridal collection
 - **Customizable Designs**  
 - **Luxury with Affordability**  
 
-💬 Need help?      [Contact Us](/about/contact/){ .md-button }
+💬 Need help?      [Contact Us](/about/contact/){: .custom-button}
 
 ---
 

@@ -25,13 +25,13 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 180px;
+  top: 50px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ 
   z-index: 900;
 }
 .sidebar a {
@@ -84,7 +84,8 @@ Discover our gold jewelry collection at a **Kalyan Jewellers showroom near you**
 
 
 
-[<span class="twemoji">📞</span> Contact Our Team](/about/contact/){ .md-button .md-button--primary }
+
+
 
 
 

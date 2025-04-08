@@ -25,13 +25,13 @@
 <style>
 .sidebar {
   position: fixed;
-  top: 180px;
+  top: 60px;
   left: 30px;
   width: 220px;
   background-color: rgba(255, 255, 255, 0.8);
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+ 
   z-index: 900;
 }
 .sidebar a {
@@ -69,7 +69,7 @@ At **Kalyan Jewellers**, we offer a range of professional services to ensure you
 
 Create a one-of-a-kind piece that reflects your personality and style. Work with our expert artisans to design the jewelry of your dreams.  
 
-[Get a Custom Design](custom.md){ .md-button .md-button--primary }
+[Get a Custom Design](custom.md){: .custom-button .primary }
 
 ---
 
@@ -77,7 +77,7 @@ Create a one-of-a-kind piece that reflects your personality and style. Work with
 
 Have an old or damaged piece? Our skilled craftsmen will restore it to its original beauty with precision and care.  
 
-[Jewelry Repair Services](repair.md){ .md-button .md-button--primary }
+[Jewelry Repair Services](repair.md){: .custom-button .primary }
 
 ---
 
@@ -87,7 +87,7 @@ Have an old or damaged piece? Our skilled craftsmen will restore it to its origi
 - **Quality Assurance** – Premium materials and attention to detail.  
 - **Affordable Pricing** – Luxury that fits your budget.  
 
-💬 Need assistance? [Contact Us](/about/contact/){ .md-button }
+💬 Need assistance? [Contact Us](/about/contact/){: .custom-button  }
 
 ---
 
