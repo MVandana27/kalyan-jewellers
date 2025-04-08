@@ -1,46 +1,40 @@
-<style>
-/* Light Theme */
-[data-md-color-scheme="default"] h1, 
-[data-md-color-scheme="default"] h2, 
-[data-md-color-scheme="default"] h3, 
-[data-md-color-scheme="default"] h4, 
-[data-md-color-scheme="default"] h5, 
-[data-md-color-scheme="default"] h6 {
-    color: purple !important;
-}
 
-/* Dark Theme */
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3, 
-[data-md-color-scheme="slate"] h4, 
-[data-md-color-scheme="slate"] h5, 
-[data-md-color-scheme="slate"] h6 {
-    color: yellow !important;
-}
-</style>
 
 <style>
+:root {
+  --sidebar-text-light: #222;
+  --sidebar-text-dark: #f5f5f5;
+}
+
 .sidebar {
   position: fixed;
-  top: 50px;
+  top: 60px;
   left: 30px;
   width: 220px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: transparent; /* Fully transparent */
   padding: 20px;
   border-radius: 12px;
   z-index: 900;
+  transition: color 0.3s ease;
 }
+
 .sidebar a {
   display: block;
   margin: 10px 0;
-  color: #333;
+  color: var(--sidebar-text-light);
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
+
+[data-md-color-scheme="slate"] .sidebar a {
+  color: var(--sidebar-text-dark);
+}
+
 .sidebar a:hover {
   color: var(--md-accent-fg-color);
 }
+
 .content {
   margin-left: 250px;
 }
@@ -64,7 +58,7 @@ Welcome to our **Collections** section, where tradition meets elegance. Browse t
 
 Discover our timeless **gold jewelry collection**, blending heritage with modern craftsmanship.  
 
-[Explore Gold Jewelry](gold.md){: .custom-button .primary }
+[Explore Gold Jewelry](gold.md){: .custom-button  }
 
 
 ---
@@ -73,7 +67,7 @@ Discover our timeless **gold jewelry collection**, blending heritage with modern
 
 Brilliance redefined—our **diamond collection** features handcrafted designs that sparkle with perfection.  
 
-[View Diamond Jewelry](diamonds.md){: .custom-button .primary }
+[View Diamond Jewelry](diamonds.md){: .custom-button}
 
 ---
 
@@ -82,7 +76,7 @@ Brilliance redefined—our **diamond collection** features handcrafted designs t
 
 Make your special day even more memorable with our **exclusive bridal collection**. Designed to bring out the best in every bride.  
 
-[Browse Bridal Collection](bridal.md){: .custom-button .primary }
+[Browse Bridal Collection](bridal.md){: .custom-button }
 
 ---
 

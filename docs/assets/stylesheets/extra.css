@@ -76,7 +76,7 @@
     position: relative;
 }
 
-/* Dropdown menu styling */
+/* Base dropdown menu (fallback) */
 .dropdown-menu {
     display: none;
     position: absolute;
@@ -85,51 +85,68 @@
     padding: 8px 0;
     list-style: none;
     min-width: 200px;
-    background: rgba(255, 255, 255, 0.2);
-    /* semi-transparent */
-    backdrop-filter: blur(6px);
     border-radius: 8px;
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
     box-shadow: 0 8px 24px rgba(0, 0, 0, 0.1);
     z-index: 1000;
+    backdrop-filter: blur(6px);
 }
 
-/* Individual dropdown items */
+/* Light theme dropdown background */
+[data-md-color-scheme="default"] .dropdown-menu {
+    background: rgba(255, 255, 255, 0.8);
+}
+
+/* Dark theme dropdown background */
+[data-md-color-scheme="slate"] .dropdown-menu {
+    background: rgba(130, 129, 129, 0.6);
+}
+
+/* Individual items */
 .dropdown-menu li {
     margin: 0;
 }
 
-/* Base link style */
 .dropdown-menu li a {
     display: block;
     padding: 10px 16px;
     font-size: 14px;
-    color: #696969 !important;
     text-decoration: none;
     border-radius: 4px;
     transition: all 0.3s ease;
 }
 
-/* Hover effect */
-.dropdown-menu li a:hover {
-    background-color: #ffffff;
-    /* white background on hover */
-    color: black !important;
-    /* dark text */
-    font-weight: 600;
-    transform: scale(1.02);
-    /* subtle zoom/pop */
-    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
-    /* soft shadow */
+/* Light theme link color */
+[data-md-color-scheme="default"] .dropdown-menu li a {
+    color: #444 !important;
 }
 
-/* Active/selected menu item */
+/* Dark theme link color */
+[data-md-color-scheme="slate"] .dropdown-menu li a {
+    color: #fffdfd !important;
+}
+
+/* Hover effect */
+.dropdown-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.9);
+    color: #000 !important;
+    font-weight: 600;
+    transform: scale(1.02);
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Dark theme hover override */
+[data-md-color-scheme="slate"] .dropdown-menu li a:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #070707 !important;
+}
+
+/* Active item */
 .dropdown-menu li a.active {
     background-color: #436d96;
-    /* dark blue-gray background */
-    color: #fff !important;
-    /* white text */
+    color: #030303 !important;
     font-weight: bold;
-    border-radius: 4px;
 }
 
 /* Show dropdown on hover */
@@ -138,10 +155,13 @@
     animation: fadeIn 0.3s ease-in-out;
 }
 
+
+
+/* Ensure nav links in dropdown are always visible */
 .md-nav__dropdown a {
-    color: rgb(249, 249, 249) !important;
-    /* Ensures text is visible */
+    color: inherit !important;
 }
+
 
 
 /* Align Content to the Right */

@@ -1,53 +1,47 @@
 
 <style>
-/* Light Theme */
-[data-md-color-scheme="default"] h1, 
-[data-md-color-scheme="default"] h2, 
-[data-md-color-scheme="default"] h3, 
-[data-md-color-scheme="default"] h4, 
-[data-md-color-scheme="default"] h5, 
-[data-md-color-scheme="default"] h6 {
-    color: purple !important;
+:root {
+  --sidebar-text-light: #222;
+  --sidebar-text-dark: #f5f5f5;
 }
 
-/* Dark Theme */
-[data-md-color-scheme="slate"] h1, 
-[data-md-color-scheme="slate"] h2, 
-[data-md-color-scheme="slate"] h3, 
-[data-md-color-scheme="slate"] h4, 
-[data-md-color-scheme="slate"] h5, 
-[data-md-color-scheme="slate"] h6 {
-    color: yellow !important;
-}
-</style>
-
-
-<style>
 .sidebar {
   position: fixed;
   top: 60px;
   left: 30px;
   width: 220px;
-  background-color: rgba(255, 255, 255, 0.8);
+  background-color: transparent; /* Fully transparent */
   padding: 20px;
   border-radius: 12px;
-  /* box-shadow: 0 4px 12px rgba(0,0,0,0.1); */
   z-index: 900;
+  transition: color 0.3s ease;
 }
+
 .sidebar a {
   display: block;
   margin: 10px 0;
-  color: #333;
+  color: var(--sidebar-text-light);
   text-decoration: none;
   font-weight: 500;
+  transition: color 0.3s ease;
 }
+
+[data-md-color-scheme="slate"] .sidebar a {
+  color: var(--sidebar-text-dark);
+}
+
 .sidebar a:hover {
   color: var(--md-accent-fg-color);
 }
+
 .content {
   margin-left: 250px;
 }
 </style>
+
+
+
+
 
 <div class="sidebar">
   <a href="#discover-timeless-beauty">Discover Timeless Beauty</a>
@@ -101,7 +95,7 @@ Explore our stunning collection online or visit our nearest showroom for a perso
 
 <div class="hero" markdown>
 
-[View Collections](/collections/gold){: .custom-button .primary }
+[View Collections](/collections/gold){: .custom-button }
 [Book Consultation](/about/contact){: .custom-button }
 
 </div>
