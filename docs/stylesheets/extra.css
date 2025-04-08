@@ -51,13 +51,13 @@ b {
 
 /* Secondary or normal (gray-blue) */
 .custom-button:not(.primary) {
-    background-color: #7c13d7;
+    background-color: #00aaff;
 }
 
 /* Hover effect */
 .custom-button:hover {
     transform: scale(1.03);
-    background-color: #00aaff;
+    background-color: #cd3bd5;
 }
 
 /* Optional: Space between buttons */
@@ -85,5 +85,5 @@ b {
 [data-md-color-scheme="slate"] h4,
 [data-md-color-scheme="slate"] h5,
 [data-md-color-scheme="slate"] h6 {
-    color: rgb(214, 41, 41) !important;
+    color: rgb(228, 106, 24) !important;
 }

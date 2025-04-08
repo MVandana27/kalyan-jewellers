@@ -61,7 +61,7 @@ At **Kalyan Jewellers**, we offer a range of professional services to ensure you
 
 Create a one-of-a-kind piece that reflects your personality and style. Work with our expert artisans to design the jewelry of your dreams.  
 
-[Get a Custom Design](custom.md){: .custom-button .primary }
+[Get a Custom Design](custom.md){: .custom-button }
 
 ---
 
@@ -69,7 +69,7 @@ Create a one-of-a-kind piece that reflects your personality and style. Work with
 
 Have an old or damaged piece? Our skilled craftsmen will restore it to its original beauty with precision and care.  
 
-[Jewelry Repair Services](repair.md){: .custom-button .primary }
+[Jewelry Repair Services](repair.md){: .custom-button }
 
 ---
 
