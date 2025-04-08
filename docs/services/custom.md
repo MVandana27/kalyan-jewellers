@@ -94,9 +94,7 @@ h4:hover,
 h5:hover,
 h6:hover {
   transform: translateX(4px); /* Slide effect */
-  color: var(--md-accent-fg-color); /* Uses your theme's accent */
-  text-shadow: 0 0 4px rgba(0, 0, 0, 0.2); /* Soft highlight */
-  background: linear-gradient(to right, rgba(255,255,255,0.05), rgba(255,255,255,0)); /* Subtle glow */
+  
   transition: all 0.3s ease-in-out;
   cursor: pointer;
   padding-inline: 4px;
