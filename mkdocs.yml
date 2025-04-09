@@ -88,9 +88,8 @@ nav:
       - Contact Us: category/contact.md
   - Offers:
       - Overview: offers/index.md
-      - Gold Jewelry: offers/pan.md
-      - Diamond Collections: offers/diamonds.md
-      - Bridal Jewelry: offers/bridal.md
+      - Pan India: offers/pan.md
+      - April/May Offers: offers/month.md
   - Map:
       - Overview: map/map.md
   - GoldRate:

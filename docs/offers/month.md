@@ -1,4 +1,4 @@
-# Kalyan Bridal Collections
+# APRIL/MAY Offer 2025 - Muziris
 
 
 
@@ -14,7 +14,11 @@
   
 </div>
 
-# **Kalyan Bridal Collections**
+<h1 style="text-align: center;"><strong>APRIL/MAY Offer 2025 - Muziris</strong> </h1>
+
+<span style="color: red; font-weight: bold; font-size: 1.0rem;">Only on SELECTED PRODUCTS</span>
+
+**Applicable Locations**: Kalyan Jewellers Own Stores & Franchise Stores
 
 ## **Bridal Collection Elegance for Your Special Day**  
 

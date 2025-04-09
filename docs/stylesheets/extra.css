@@ -75,7 +75,7 @@ b {
 [data-md-color-scheme="default"] h4,
 [data-md-color-scheme="default"] h5,
 [data-md-color-scheme="default"] h6 {
-    color: purple !important;
+    color: rgb(87, 135, 216) !important;
 }
 
 /* Dark Theme */
