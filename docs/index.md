@@ -2,7 +2,8 @@
 <style>
 :root {
   --sidebar-text-light: #222;
-  --sidebar-text-dark: #f5f5f5;
+  --sidebar-text-dark:rgb(252, 253, 253);
+  --sidebar-font-size: 0.70rem; /* Reduced font size (default is usually 1rem) */
  
 }
 
@@ -14,6 +15,7 @@
   background-color: transparent; /* Default light background */
   padding: 20px;
   border-radius: 12px;
+  font-size: var(--sidebar-font-size);
   z-index: 900;
   transition: all 0.3s ease;
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
@@ -68,9 +70,13 @@
 
 
 
-<div style="text-align: center;">
-    <img src="assets/images/kalyan_logo.png" class="logo" style="pointer-events: none;">
-</div>
+<body>
+    <div style="text-align: center;">
+        <img src="assets/images/kalyan_logo.png" class="logo" style="pointer-events: none;">
+    </div>
+</body>
+
+
 
 Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
 

@@ -7,7 +7,7 @@
 :root {
   --sidebar-text-light: #222;
   --sidebar-text-dark: #f5f5f5;
- 
+  --sidebar-font-size: 0.70rem;
 }
 
 .sidebar {
@@ -17,6 +17,7 @@
   width: 220px;
   background-color: transparent; /* Default light background */
   padding: 20px;
+  font-size: var(--sidebar-font-size);
   border-radius: 12px;
   z-index: 900;
   transition: all 0.3s ease;
