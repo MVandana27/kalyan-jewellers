@@ -23,28 +23,42 @@
 <!-- Horizontal Navigation Palette -->
 <div class="palette-menu">
     <ul class="navbar">
-        <li class="menu-section"><a href="{{ base_url }}/">Home</a></li>
+        <li class="menu-section"><a href="{{ base_url }}/">Overview</a></li>
 
         <li class="menu-section dropdown">
-            <a class="nav-link" href="{{ base_url }}/about/">About Us</a>
+            <a class="nav-link" href="{{ base_url }}/category/">Category</a>
 
             <ul class="dropdown-menu">
-                <li><a href="{{ base_url }}/about/heritage/"> Our Heritage</a></li>
-                <li><a href="{{ base_url }}/about/craftsmanship/"> Craftsmanship</a></li>
-                <li><a href="{{ base_url }}/about/contact/"> Contact Us</a></li>
+                <li><a href="{{ base_url }}/category/heritage/"> Our Heritage</a></li>
+                <li><a href="{{ base_url }}/category/craftsmanship/"> Craftsmanship</a></li>
+                <li><a href="{{ base_url }}/category/contact/"> Contact Us</a></li>
 
             </ul>
         </li>
 
         <li class="menu-section dropdown">
-            <a class="nav-link" href="{{ base_url }}/collections/">Collections</a>
+            <a class="nav-link" href="{{ base_url }}/offers/">Offers</a>
             <ul class="dropdown-menu">
-                <li><a href="{{ base_url }}/collections/gold/">Gold Jewelry</a></li>
-                <li><a href="{{ base_url }}/collections/diamonds/">Diamond Collections</a></li>
-                <li><a href="{{ base_url }}/collections/bridal/"> Bridal Jewelry</a></li>
+                <li><a href="{{ base_url }}/offers/pan/">Pan India</a></li>
+                <li><a href="{{ base_url }}/offers/diamonds/">Diamond Collections</a></li>
+                <li><a href="{{ base_url }}/offers/bridal/"> Bridal Jewelry</a></li>
             </ul>
         </li>
 
+        <li class="menu-section dropdown">
+            <a class="nav-link" href="{{ base_url }}/map/">Map</a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ base_url }}/Map/map">Custom Design</a></li>
+
+            </ul>
+        </li>
+        <li class="menu-section dropdown">
+            <a class="nav-link" href="{{ base_url }}/goldrate/">Gold Rate</a>
+            <ul class="dropdown-menu">
+                <li><a href="{{ base_url }}/goldrate/goldrate">Custom Design</a></li>
+
+            </ul>
+        </li>
         <li class="menu-section dropdown">
             <a class="nav-link" href="{{ base_url }}/services/">Services</a>
             <ul class="dropdown-menu">
@@ -61,137 +75,4 @@
 
 
 
-{% endblock %}
-
-
-
-
-
-
-
-
-
-
-{% block content %}
-{{ super() }}
-<!-- SVG Background Container -->
-<div class="custom-svg-bg">
-    <!-- Full SVG Background -->
-    <svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 1600 800"
-        preserveAspectRatio="none">
-        <defs>
-            <radialGradient id="sunGradient" cx="15%" cy="10%" r="70%" gradientUnits="userSpaceOnUse">
-                <stop offset="0%" stop-color="#FFEE99" stop-opacity="0.15" />
-                <stop offset="100%" stop-color="#FFEE99" stop-opacity="0" />
-            </radialGradient>
-            <linearGradient id="flowerPetal" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#FFB6C1" />
-                <stop offset="100%" stop-color="#FF69B4" />
-            </linearGradient>
-            <linearGradient id="flowerCenter" x1="0%" y1="0%" x2="100%" y2="100%">
-                <stop offset="0%" stop-color="#FFD700" />
-                <stop offset="100%" stop-color="#FFA500" />
-            </linearGradient>
-        </defs>
-
-        <!-- Sun -->
-        <ellipse cx="15%" cy="10%" rx="300" ry="300" fill="url(#sunGradient)" />
-
-        <!-- Flower Groups -->
-        <g fill-rule="evenodd">
-            <g transform="translate(200 500)">
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(0)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(45)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(90)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)"
-                    transform="rotate(135)" />
-                <circle cx="20" cy="0" r="8" fill="url(#flowerCenter)" />
-            </g>
-
-            <g transform="translate(800 200) scale(1.2)">
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(0)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(45)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(90)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)"
-                    transform="rotate(135)" />
-                <circle cx="20" cy="0" r="8" fill="url(#flowerCenter)" />
-            </g>
-
-            <g transform="translate(1200 600) scale(0.8)">
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(0)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(45)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(90)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)"
-                    transform="rotate(135)" />
-                <circle cx="20" cy="0" r="8" fill="url(#flowerCenter)" />
-            </g>
-
-            <g transform="translate(400 300) scale(0.6)">
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(0)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(45)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(90)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)"
-                    transform="rotate(135)" />
-                <circle cx="20" cy="0" r="8" fill="url(#flowerCenter)" />
-            </g>
-
-            <g transform="translate(1400 400) scale(1.1)">
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(0)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(45)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)" transform="rotate(90)" />
-                <path d="M0,0 C10,-20 30,-20 40,0 C30,20 10,20 0,0 Z" fill="url(#flowerPetal)"
-                    transform="rotate(135)" />
-                <circle cx="20" cy="0" r="8" fill="url(#flowerCenter)" />
-            </g>
-
-            <!-- Extra flowers/dots -->
-            <circle cx="300" cy="150" r="3" fill="#FFB6C1" />
-            <circle cx="500" cy="700" r="3" fill="#FFB6C1" />
-            <circle cx="1300" cy="200" r="3" fill="#FFB6C1" />
-            <circle cx="1500" cy="650" r="3" fill="#FFB6C1" />
-            <circle cx="200" cy="300" r="2" fill="#FF69B4" />
-            <circle cx="900" cy="500" r="2" fill="#FF69B4" />
-            <circle cx="1100" cy="100" r="2" fill="#FF69B4" />
-        </g>
-    </svg>
-</div>
-{% endblock %}
-
-{% block extrahead %}
-{{ super() }}
-<style>
-    body[data-md-color-scheme="default"] .custom-svg-bg {
-        position: fixed;
-        top: 0;
-        left: 0;
-        z-index: -1;
-        width: 100%;
-        height: 100%;
-        overflow: hidden;
-        pointer-events: none;
-        opacity: 1;
-    }
-
-    body[data-md-color-scheme="slate"] .custom-svg-bg {
-        display: none;
-    }
-
-    ellipse {
-        animation: sunPulse 8s ease-in-out infinite;
-    }
-
-    @keyframes sunPulse {
-        0% {
-            opacity: 0.15;
-        }
-
-        50% {
-            opacity: 0.2;
-        }
-
-        100% {
-            opacity: 0.15;
-        }
-    }
-</style>
 {% endblock %}

@@ -4,8 +4,8 @@ site_author: "Manyam vandana"
 theme:
   name: material
   custom_dir: docs/overrides
-  logo: assets/images/kalyan_logo.png
-  favicon: assets/images/KALYANkj.jpg
+  logo: assets/images/image.png
+  favicon: assets/images/chat.png
 
   features:
     - search.share
@@ -81,16 +81,20 @@ plugins:
 
 nav:
   - Kalyan Jewellers: index.md
-  - About Us:
-      - Overview: about/index.md
-      - Our Heritage: about/heritage.md
-      - Craftsmanship: about/craftsmanship.md
-      - Contact Us: about/contact.md
-  - Collections:
-      - Overview: collections/index.md
-      - Gold Jewelry: collections/gold.md
-      - Diamond Collections: collections/diamonds.md
-      - Bridal Jewelry: collections/bridal.md
+  - Category:
+      - Overview: category/index.md
+      - Our Heritage: category/heritage.md
+      - Craftsmanship: category/craftsmanship.md
+      - Contact Us: category/contact.md
+  - Offers:
+      - Overview: offers/index.md
+      - Gold Jewelry: offers/pan.md
+      - Diamond Collections: offers/diamonds.md
+      - Bridal Jewelry: offers/bridal.md
+  - Map:
+      - Overview: map/map.md
+  - GoldRate:
+      - Overview: goldrate/goldrate.md
   - Services:
       - Overview: services/index.md
       - Custom Design: services/custom.md

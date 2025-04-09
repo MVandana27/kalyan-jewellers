@@ -27,7 +27,7 @@
 
 
 
-Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
+<p style="color: grey; font-weight: bold;">Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.</p>
 
 
 For decades, **Kalyan Jewellers** has been synonymous with purity, elegance, and exquisite craftsmanship. We take pride in offering a breathtaking collection of **gold, diamond, platinum, and gemstone jewelry**, designed to celebrate every special moment of your life.  
