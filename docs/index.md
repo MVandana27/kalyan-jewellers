@@ -12,7 +12,7 @@
 
 
 <div style="text-align: center;">
-    <img src="assets/images/KJ logo.png" class="logo" style="pointer-events: none;">
+    <img src="assets/images/KJ logo 1.png" class="logo" style="pointer-events: none;">
 </div>
 
 <style>
