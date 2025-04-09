@@ -2,62 +2,6 @@
 # Custom Jewelry Design
 
 
-<style>
-:root {
-  --sidebar-text-light: #222;
-  --sidebar-text-dark: #f5f5f5;
-  --sidebar-font-size: 0.70rem;
-}
-
-.sidebar {
-  position: fixed;
-  top: 60px;
-  left: 30px;
-  width: 220px;
-  background-color: transparent; /* Default light background */
-  padding: 20px;
-  border-radius: 12px;
-  font-size: var(--sidebar-font-size);
-  z-index: 900;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-}
-
-/* Dark theme styles */
-[data-md-color-scheme="slate"] .sidebar {
-  background-color: var(--sidebar-bg-dark);
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
-}
-
-.sidebar a {
-  display: block;
-  margin: 10px 0;
-  color: var(--sidebar-text-light);
-  text-decoration: none;
-  font-weight: 500;
-  transition: color 0.3s ease;
-  padding: 8px 12px;
-  border-radius: 6px;
-}
-
-[data-md-color-scheme="slate"] .sidebar a {
-  color: var(--sidebar-text-dark);
-}
-
-.sidebar a:hover {
-  color: var(--md-accent-fg-color);
-  background-color: rgba(0, 0, 0, 0.05); /* Light hover effect */
-}
-
-[data-md-color-scheme="slate"] .sidebar a:hover {
-  background-color: rgba(255, 255, 255, 0.05); /* Dark hover effect */
-}
-
-.content {
-  margin-left: 250px;
-}
-</style>
-
 <div class="sidebar">
   <a href="#custom-jewellery-crafted-just-for-you">Custom Jewellery Crafted Just for You</a>
   <a href="#create-your-dream-jewellery">Create Your Dream Jewellery</a>
