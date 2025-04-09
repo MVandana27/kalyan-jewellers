@@ -5,7 +5,7 @@ theme:
   name: material
   custom_dir: docs/overrides
   logo: assets/images/kalyan_logo.png
-  favicon: assets/images/KALYANkj.png
+  favicon: assets/images/KALYANkj.jpg
 
   features:
     - search.share
