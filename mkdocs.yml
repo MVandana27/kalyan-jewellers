@@ -91,7 +91,7 @@ nav:
       - Pan India: offers/pan.md
       - April/May Offers: offers/month.md
   - Map:
-      - Overview: map/map.md
+      - Overview: map/index.md
   - GoldRate:
       - Overview: goldrate/goldrate.md
   - Services:

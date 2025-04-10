@@ -1,50 +1,327 @@
+
+
+
+
+
 # APRIL/MAY Offer 2025 - Muziris
-
-
-
-
 
 <div class="sidebar">
   
-  <a href="#bridal-collection-elegance-for-your-special-day">Bridal Collection Elegance for Your Special Day</a>
-  <a href="#a-legacy-of-timeless-bridal-jewelry">A Legacy of Timeless Bridal Jewelry</a>
-  <a href="#bridal-collections-we-offer">Bridal Collections We Offer</a>
-  <a href="#why-choose-kalyan-jewellers">Why Choose Kalyan Jewellers</a>
-  <a href="#visit-us">Visit Us</a>
+  <a href="#aprilmay-offer-2025---muziris">APRIL/MAY Offer 2025 - Muziris</a>
+  <a href="#own-store-offers">Own Store Offers</a>
+  <a href="#franchise-store-offers">Franchise Store Offers</a>
+  <a href="#termsconditions">Terms & Conditions</a>
+  
   
 </div>
 
-<h1 style="text-align: center;"><strong>APRIL/MAY Offer 2025 - Muziris</strong> </h1>
+
+ <h1 style="text-align: center;"> <strong>APRIL/MAY Offer 2025 - Muziris</strong> </h1>
 
 <span style="color: red; font-weight: bold; font-size: 1.0rem;">Only on SELECTED PRODUCTS</span>
 
 **Applicable Locations**: Kalyan Jewellers Own Stores & Franchise Stores
 
-## **Bridal Collection Elegance for Your Special Day**  
+## **Own Store Offers**  
 
-Your wedding day is a celebration of love, tradition, and new beginnings. At **Kalyan Jewellers**, we offer a breathtaking collection of bridal jewelry, crafted with exquisite artistry to make your special day even more memorable.  
+<style>
+    /* Default light theme styles */
+    [data-md-color-scheme="default"] .offer-table {
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table th {
+        background-color: #f0f0f0;
+        color: #000000;
+        border-color: #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table td {
+        border-color: #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    [data-md-color-scheme="default"] .offer-table code {
+        background-color: #f5f5f5;
+        color: #d63384;
+    }
 
-## **A Legacy of Timeless Bridal Jewelry**  
+    /* Dark theme styles */
+    [data-md-color-scheme="slate"] .offer-table {
+        color: #ffffff;
+        background-color: #121212;
+        border: 1px solid #444;
+    }
+    [data-md-color-scheme="slate"] .offer-table th {
+        background-color: #333333;
+        color: #ffffff;
+        border-color: #444;
+    }
+    [data-md-color-scheme="slate"] .offer-table td {
+        border-color: #444;
+    }
+    [data-md-color-scheme="slate"] .offer-table tr:nth-child(odd) {
+        background-color: #1e1e1e;
+    }
+    [data-md-color-scheme="slate"] .offer-table tr:nth-child(even) {
+        background-color: #252525;
+    }
+    [data-md-color-scheme="slate"] .offer-table code {
+        background-color: #333;
+        color: #4fc3f7;
+    }
 
-Our bridal collection is designed to complement every bride’s unique style, from **traditional temple jewelry to contemporary diamond sets**. Each piece reflects a perfect blend of heritage and modern elegance, ensuring you shine on your big day.  
+    /* Common table styles */
+    .offer-table {
+        width: 100%;
+        font-family: Arial, sans-serif;
+        font-size: 14px;
+        text-align: left;
+        border-collapse: collapse;
+        margin-bottom: 1em;
+    }
+    .offer-table th, .offer-table td {
+        padding: 10px;
+        border: 1px solid;
+    }
+    .offer-table code {
+        padding: 2px 4px;
+        border-radius: 3px;
+        font-family: monospace;
+    }
+    .offer-table tbody tr:hover {
+        background-color: rgba(155, 155, 153, 0.2);
+        transition: background-color 0.3s ease;
+    }
+</style>
 
-## **Bridal Collections We Offer**  
+<table class="offer-table">
+  <thead>
+    <tr style="font-weight: bold; color: black;">
+      <th>Offer Code</th>
+      <th>Description</th>
+      <th>Discount Details</th>
+      <th>Promo Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Offer 1</td>
+      <td>Gold</td>
+      <td>0% off on VA for aged items</td>
+      <td><code>MARGLDOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 2</td>
+      <td>Diamond/Precious & Uncut</td>
+      <td>0% off on VA for aged items</td>
+      <td><code>MARGLDOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 3</td>
+      <td>Polki</td>
+      <td>25% off on Polki Jewellery</td>
+      <td><code>POLKIOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 4</td>
+      <td>AKT 2025 Open Gold Offer</td>
+      <td>25% off on VA</td>
+      <td><code>STRDISVAGLD</code></td>
+    </tr>
+    <tr>
+      <td>Offer 5</td>
+      <td>AKT 2025 Diamond & PUP Offer</td>
+      <td>25% off on VA + 15% off on stone</td>
+      <td>
+        <code>STRDISVADMD</code> / <code>STRDISSTDMD</code><br>
+        <code>STRDISVAPUP</code> / <code>STRDISSTPUP</code>
+      </td>
+    </tr>
+    <tr>
+      <td>Offer 6</td>
+      <td>AKT 2025 Platinum & Polki Offer</td>
+      <td>10% off on invoice value</td>
+      <td><em>Open Discount</em></td>
+    </tr>
+    <tr>
+      <td>Offer 7</td>
+      <td>AKT 2025 Plain Gold Jewellery</td>
+      <td>Flat 30% off on making charges</td>
+      <td><code>AKTMCOFFER25PREGLD30GMGEN</code></td>
+    </tr>
+    <tr>
+      <td>Offer 8</td>
+      <td>AKT 2025 Temple & Antique Jewellery</td>
+      <td>Flat 35% off on making charges</td>
+      <td>
+        <code>AKTMCOFFER25PREGLD30GMTEM</code><br>
+        <code>AKTMCOFFER25PREGLD30GMANT</code>
+      </td>
+    </tr>
+    <tr>
+      <td>Offer 9</td>
+      <td>AKT 2025 Premium Gold Jewellery</td>
+      <td>Flat 40% off on making charges</td>
+      <td><code>AKTMCOFFER25PREGLD30GMPREM</code></td>
+    </tr>
+  </tbody>
+</table>
 
-- **Heritage Bridal Sets** – Inspired by regal traditions, featuring intricate craftsmanship.  
-- **Diamond Bridal Collection** – A dazzling range of solitaire, halo, and layered diamond necklaces.  
-- **Temple & Antique Jewelry** – Traditional South Indian designs with divine motifs.  
-- **Customized Bridal Jewelry** – Personalized designs to match your dream wedding look.  
+## **Franchise Store Offers**  
+<style>
+/* Light theme */
+[data-md-color-scheme="default"] .offer-table-2 {
+        color: #333333;
+        background-color: #ffffff;
+        border: 1px solid #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table-2 th {
+        background-color: #f0f0f0;
+        color: #000000;
+        border-color: #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table-2 td {
+        border-color: #ddd;
+    }
+    [data-md-color-scheme="default"] .offer-table-2 tr:nth-child(even) {
+        background-color: #f9f9f9;
+    }
+    [data-md-color-scheme="default"] .offer-table-2 code {
+        background-color: #f5f5f5;
+        color: #d63384;
+    }
 
-## **Why Choose Kalyan Jewellers?**  
+/* Dark theme */
+[data-md-color-scheme="slate"] .offer-table-2 {
+    color: #fff;
+    background-color: #121212;
+    border: 1px solid #444;
+}
+[data-md-color-scheme="slate"] .offer-table-2 th {
+    background-color: #333;
+    color: #fff;
+}
+[data-md-color-scheme="slate"] .offer-table-2 tr:nth-child(even) {
+    background-color: #252525;
+}
+[data-md-color-scheme="slate"] .offer-table-2 code {
+    background: #333;
+    color: #4fc3f7;
+}
 
-- **BIS-hallmarked Gold & Certified Diamonds**  
-- **Exquisite Craftsmanship by Master Artisans**  
-- **Customization Options for a Unique Look**  
-- **Purity, Trust, and Transparency in Every Piece**  
+/* Common */
+.offer-table-2 {
+    width: 100%;
+    border-collapse: collapse;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    text-align: left;
+    margin-bottom: 1em;
+}
+.offer-table-2 th, .offer-table-2 td {
+    border: 1px solid;
+    padding: 10px;
+}
+.offer-table-2 code {
+    padding: 4px 6px;
+    border-radius: 6px;
+    font-weight: 600;
+    font-family: monospace;
+}
+.offer-table-2 tbody tr:hover {
+        background-color: rgba(156, 156, 155, 0.2);
+        transition: background-color 0.3s ease;
+    }
+</style>
+<table class="offer-table-2">
+  <thead>
+    <tr style="font-weight: bold; color: black;">
+      <th>Offer Code</th>
+      <th>Description</th>
+      <th>Discount Details</th>
+      <th>Promo Code</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Offer 1</td>
+      <td>Gold</td>
+      <td>50% off on VA for aged items</td>
+      <td><code>FRCGLDOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 2</td>
+      <td>Diamond/Precious & Uncut</td>
+      <td>50% off on VA for aged items</td>
+      <td><code>FRCDMDOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 3</td>
+      <td>B3 & B4 Items Offer</td>
+      <td>50% off on VA (Upto 5% Inventory)</td>
+      <td><code>MAROFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 4</td>
+      <td>Polki</td>
+      <td>25% off on Polki Jewellery</td>
+      <td><code>POLKIOFF25</code></td>
+    </tr>
+    <tr>
+      <td>Offer 5</td>
+      <td>AKT 2025 Open Gold Offer</td>
+      <td>25% off on VA</td>
+      <td><code>STRDISVAGLD</code></td>
+    </tr>
+    <tr>
+      <td>Offer 6</td>
+      <td>AKT 2025 Diamond & PUP Offer</td>
+      <td>25% off on VA + 15% off on stone</td>
+      <td><code>Same as Own Store</code></td>
+    </tr>
+    <tr>
+      <td>Offer 7</td>
+      <td>AKT 2025 Platinum & Polki Offer</td>
+      <td>10% off on invoice value</td>
+      <td><code>Open Discount</code></td>
+    </tr>
+    <tr>
+      <td>Offer 8-10</td>
+      <td>(Same as Own Store Offers 7-9)</td>
+      <td>Same making charge discounts</td>
+      <td><code>Same promo codes</code></td>
+    </tr>
+  </tbody>
+</table>
 
-## **Visit Us**  
 
-Let us be a part of your wedding journey. Explore our **stunning bridal collections** online or visit our nearest showroom for a personalized shopping experience.  
+
+
+
+## **Terms&Conditions**  
+
+1. **Non-Stackable Offers**:
+2. Cannot combine two promotional vouchers
+3. Cannot be clubbed with bonus schemes/gold schemes/packages
+4. Not valid with other running offers or mandatory store discounts
+<br>
+
+5. **Redemption Rules**:
+
+6. Vouchers can be redeemed multiple times
+7. Rounding permitted up to ₹10 maximum 
+
+8. **Exclusions:**
+
+9. Not applicable on special priced items
+10. Excludes Platinum/Solitaire/Silver jewellery/Coins (all types)
+
+
+11. **Inventory Note:**
+
+12. B3 & B4 items discount capped at 5% inventory (Franchise only)  
 
 
 

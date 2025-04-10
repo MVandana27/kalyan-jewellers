@@ -1,14 +1,10 @@
 
-
 <div class="sidebar">
   <a href="#discover-timeless-beauty">Discover Timeless Beauty</a>
   <a href="#our-commitment-to-you">Our Commitment to You</a>
   <a href="#exclusive-services-we-offer">Exclusive Services</a>
   <a href="#visit-us">Visit Us</a>
 </div>
-
-
-
 
 
 <div style="text-align: center;">
@@ -27,8 +23,54 @@
 
 
 
-<p style="color: grey; font-weight: bold;">Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.</p>
+Kalyan Jewellers is one of India’s largest and most trusted jewelry brands, offering an extensive collection of Gold, Diamond, Platinum, and Silver jewelry. Established in 1993, Kalyan Jewellers has grown to over 300+ showrooms across India and the Middle East, renowned for their high-quality craftsmanship and authentic designs.
 
+<div class="gold-rates-marquee">
+  <div class="gold-rates-track">
+    <span>
+      April 09-04-2025 | 24 KT - ₹9041 | 18 KT - ₹6788 | Platinum - ₹3192 | Silver Rates: Kerala - ₹102, Tamil Nadu - ₹104 | Silver Rate Pan India -₹102  &nbsp;&nbsp;&nbsp;
+    </span>
+    <span>
+      April 09-04-2025 | 24 KT - ₹9041 | 18 KT - ₹6788 | Platinum - ₹3192 | Silver Rates: Kerala - ₹102, Tamil Nadu - ₹104 | Silver Rate Pan India -₹102 &nbsp;&nbsp;&nbsp;
+    </span>
+  </div>
+</div>
+
+
+<style>
+.gold-rates-marquee {
+  width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+  background: linear-gradient(90deg,rgb(177, 43, 48), #e52d27,rgb(234, 141, 94),rgb(245, 186, 77),rgb(129, 117, 82));
+  padding: 12px 0;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(27, 26, 26, 0.2);
+  color: white;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.gold-rates-track {
+  display: inline-block;
+  white-space: nowrap;
+  animation: scroll-marquee 9s linear infinite;
+}
+
+.gold-rates-track span {
+  display: inline-block;
+  padding: 0 2rem;
+}
+
+@keyframes scroll-marquee {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+</style>
 
 For decades, **Kalyan Jewellers** has been synonymous with purity, elegance, and exquisite craftsmanship. We take pride in offering a breathtaking collection of **gold, diamond, platinum, and gemstone jewelry**, designed to celebrate every special moment of your life.  
 
