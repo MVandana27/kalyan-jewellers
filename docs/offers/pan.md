@@ -33,7 +33,7 @@
   width: 100%;
   overflow: hidden;
   box-sizing: border-box;
-  background: linear-gradient(90deg,rgb(177, 43, 48), #e52d27,rgb(234, 141, 94),rgb(245, 186, 77),rgb(225, 196, 114));
+  background: linear-gradient(90deg,rgb(205, 69, 73), #e52d27,rgb(234, 141, 94),rgb(245, 186, 77),rgb(225, 196, 114));
   padding: 12px 0;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(27, 26, 26, 0.2);
@@ -45,7 +45,7 @@
 .gold-rates-track {
   display: inline-block;
   white-space: nowrap;
-  animation: scroll-marquee 9s linear infinite;
+  animation: scroll-marquee 8s linear infinite;
 }
 
 .gold-rates-track span {
